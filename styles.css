@@ -1,0 +1,141 @@
+/* line 5, /Users/rezaalavi/Desktop/Test/styles.sass */
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: black;
+  width: 100%;
+  height: 100%; }
+
+/* line 14, /Users/rezaalavi/Desktop/Test/styles.sass */
+#scroll {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  overflow: auto; }
+
+/* line 22, /Users/rezaalavi/Desktop/Test/styles.sass */
+#section1 {
+  background-size: cover;
+  height: 100vh;
+  background-color: black; }
+
+/* line 27, /Users/rezaalavi/Desktop/Test/styles.sass */
+#section2 {
+  background-color: #E6E7E8;
+  background-size: cover;
+  height: 100vh; }
+
+/* line 32, /Users/rezaalavi/Desktop/Test/styles.sass */
+#section3 {
+  background-size: cover;
+  height: 100vh;
+  background-color: #FFBACC; }
+
+/* line 38, /Users/rezaalavi/Desktop/Test/styles.sass */
+h1 {
+  font-size: 25pt; }
+
+/* line 41, /Users/rezaalavi/Desktop/Test/styles.sass */
+.wrapper {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto; }
+
+/* line 48, /Users/rezaalavi/Desktop/Test/styles.sass */
+.logo {
+  width: 36%;
+  color: #00EBFF;
+  font-size: 13pt;
+  font-weight: 700;
+  letter-spacing: 1px; }
+
+/* line 55, /Users/rezaalavi/Desktop/Test/styles.sass */
+.links {
+  position: fixed;
+  top: 330px; }
+  /* line 58, /Users/rezaalavi/Desktop/Test/styles.sass */
+  .links li {
+    margin: 5px auto; }
+
+/* line 62, /Users/rezaalavi/Desktop/Test/styles.sass */
+.l {
+  font-size: 12pt;
+  font-weight: 500;
+  font-kerning: normal;
+  color: #00EBFF;
+  letter-spacing: 1px; }
+
+/* line 71, /Users/rezaalavi/Desktop/Test/styles.sass */
+.copy {
+  position: fixed;
+  font-size: 10pt;
+  color: #00EBFF;
+  top: 92%;
+  left: 78px;
+  right: 78px; }
+
+/* line 80, /Users/rezaalavi/Desktop/Test/styles.sass */
+.scrolled {
+  background-color: #00EBFF;
+  transition: 0.3s; }
+
+/* line 87, /Users/rezaalavi/Desktop/Test/styles.sass */
+.info {
+  position: absolute;
+  top: 140px;
+  left: 300px;
+  color: #00EBFF; }
+  /* line 92, /Users/rezaalavi/Desktop/Test/styles.sass */
+  .info h1 {
+    margin: 0; }
+  /* line 94, /Users/rezaalavi/Desktop/Test/styles.sass */
+  .info p {
+    margin: 5px 0; }
+
+/* line 100, /Users/rezaalavi/Desktop/Test/styles.sass */
+article {
+  height: 100vh;
+  margin: 0 auto; }
+
+/* line 104, /Users/rezaalavi/Desktop/Test/styles.sass */
+.smallstars {
+  position: absolute;
+  top: -20px;
+  left: 5%;
+  width: 90%; }
+
+/* line 110, /Users/rezaalavi/Desktop/Test/styles.sass */
+.bigstars {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 80%; }
+
+/* line 118, /Users/rezaalavi/Desktop/Test/styles.sass */
+.face {
+  position: absolute;
+  top: 30%;
+  left: 43.5%;
+  width: 15%; }
+
+/* line 129, /Users/rezaalavi/Desktop/Test/styles.sass */
+.car {
+  width: 100%;
+  position: inherit;
+  margin-top: 22%;
+  margin-left: 10%; }
+
+/* line 136, /Users/rezaalavi/Desktop/Test/styles.sass */
+.dash {
+  position: relative;
+  top: 140px;
+  left: 100px; }
+  /* line 140, /Users/rezaalavi/Desktop/Test/styles.sass */
+  .dash h1 {
+    margin: 0; }
+  /* line 142, /Users/rezaalavi/Desktop/Test/styles.sass */
+  .dash p {
+    margin: 10px 0; }
+
+/*# sourceMappingURL=styles.css.map */

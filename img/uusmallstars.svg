@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1715 978">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #00ff14;
+      }
+
+      .cls-1 {
+        font-size: 20px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        font-family: Roboto-Regular, Roboto;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        font-size: 50px;
+      }
+
+      .cls-3 {
+        fill: red;
+      }
+
+      .cls-4 {
+        fill: #ff7f00;
+      }
+
+      .cls-5 {
+        fill: #00ebff;
+      }
+
+      .cls-6 {
+        fill: #ff00e2;
+      }
+    </style>
+  </defs>
+  <g id="Group_332" data-name="Group 332" transform="translate(-124 -37)">
+    <text id="_" data-name="+" class="cls-1" transform="translate(235 1010)"><tspan x="-5.669" y="0">+</tspan></text>
+    <text id="_2" data-name="+" class="cls-1" transform="translate(1409 63)"><tspan x="-5.669" y="0">+</tspan></text>
+    <text id="_." data-name="." class="cls-2" transform="translate(1339 318)"><tspan x="-6.58" y="0">.</tspan></text>
+    <text id="_.-2" data-name="." class="cls-2" transform="translate(1832 897)"><tspan x="-6.58" y="0">.</tspan></text>
+    <text id="_.-3" data-name="." class="cls-2" transform="translate(552 737)"><tspan x="-6.58" y="0">.</tspan></text>
+    <text id="_.-4" data-name="." class="cls-3" transform="translate(559 152)"><tspan x="-6.58" y="0">.</tspan></text>
+    <text id="_.-5" data-name="." class="cls-4" transform="translate(1754 376)"><tspan x="-6.58" y="0">.</tspan></text>
+    <text id="_.-6" data-name="." class="cls-4" transform="translate(939 118)"><tspan x="-6.58" y="0">.</tspan></text>
+    <text id="_.-7" data-name="." class="cls-3" transform="translate(1510 152)"><tspan x="-6.58" y="0">.</tspan></text>
+    <text id="_.-8" data-name="." class="cls-5" transform="translate(1554 806)"><tspan x="-6.58" y="0">.</tspan></text>
+    <text id="_.-9" data-name="." class="cls-5" transform="translate(963 993)"><tspan x="-6.58" y="0">.</tspan></text>
+    <text id="_.-10" data-name="." class="cls-5" transform="translate(131 83)"><tspan x="-6.58" y="0">.</tspan></text>
+    <text id="_.-11" data-name="." class="cls-6" transform="translate(1361 902)"><tspan x="-6.58" y="0">.</tspan></text>
+    <text id="_.-12" data-name="." class="cls-6" transform="translate(366 306)"><tspan x="-6.58" y="0">.</tspan></text>
+    <text id="_.-13" data-name="." class="cls-3" transform="translate(694 511)"><tspan x="-6.58" y="0">.</tspan></text>
+    <text id="_.-14" data-name="." class="cls-3" transform="translate(242 469)"><tspan x="-6.58" y="0">.</tspan></text>
+    <text id="_.-15" data-name="." class="cls-5" transform="translate(1273 511)"><tspan x="-6.58" y="0">.</tspan></text>
+  </g>
+</svg>
