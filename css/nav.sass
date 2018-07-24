@@ -22,6 +22,8 @@ $highlight: #FF00E2
     .active
         background-color: $lightblue
         color: black
+        
+        transition: background-color 3s
     transition-delay: 2s
     transition: color 2s
     
@@ -32,6 +34,8 @@ $highlight: #FF00E2
     .active
         background-color: black
         color: #E6E7E8
+        
+        transition: background-color 3s
     transition-delay: 2s
     transition: color 2s
     
@@ -41,6 +45,8 @@ $highlight: #FF00E2
     .active
         background-color: #352C28
         color: #FFBACC
+        
+        transition: background-color 3s
     transition-delay: 2s
     transition: color 2s
     
@@ -101,11 +107,12 @@ $highlight: #FF00E2
     font-weight: normal
     font-size: 16px
     display: block
-    background: none
-    width: 100%
-    text-align: left
-    cursor: pointer
-    outline: none
+    
+//    background: none
+//    width: 100%
+//    text-align: left
+//    cursor: pointer
+//    outline: none
     
     
 .sidenav a
@@ -118,12 +125,17 @@ $highlight: #FF00E2
 .sidenav a:hover, .dropdown-btn:hover 
      color: $highlight
 
+.sidenav a:active, .dropdown-btn:active
+     color: pink
+     font-weight: bolder
+
     
 
 
 
 .active 
-    padding: 3px 0 3px 14px
+    padding: 3px 0 3px 7px
+    font-size: 30px
     
     
     
@@ -162,8 +174,8 @@ $highlight: #FF00E2
   width: 25px
 
 .fa-caret-down 
-  margin-top: -5px
-  font-size: 20px
+  margin-left: 5px
+  font-size: 18px
  
 .fa-instagram 
   color: inherit

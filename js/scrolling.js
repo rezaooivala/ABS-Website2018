@@ -1,3 +1,5 @@
+
+
 function ScrollHandler(pageId) {
   var page = document.getElementById(pageId);
   var pageStart = page.offsetTop;
@@ -125,6 +127,8 @@ function ScrollHandler(pageId) {
       event.preventDefault();
     }
   });
+    
+    
 }
 
 
@@ -132,6 +136,9 @@ function ScrollHandler(pageId) {
 new ScrollHandler("section1");
 new ScrollHandler("section2");
 new ScrollHandler("section3");
+
+
+
 
 
 

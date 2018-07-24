@@ -1,30 +1,40 @@
-var dropdown = document.getElementsByClassName("dropdown-btn");
-var i;
 
-for (i = 0; i < dropdown.length; i++) {
-  dropdown[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var dropdownContent = this.nextElementSibling;
-    if (dropdownContent.style.display === "block") {
-      dropdownContent.style.display = "none";
+
+$(document).ready(function () {
+//    $(".dropdown-btn").next().addClass("active");    
+  
+    
+    
+$(".dropdown-btn").next().addClass("collapsed").slideUp();
+    
+
+
+$(".sidenav").on('click', '.dropdown-btn', function (event) {
+    event.preventDefault();
+    var currentClass = $(this).next().prop('class');
+    if (currentClass == "dropdown-container") {
+        
+        $(this).next().removeClass("expanded");
+        $(this).next().addClass("collapsed");
+        $(this).next().slideUp();
+        
     } else {
-      dropdownContent.style.display = "block";
+         $(".expanded").slideUp().addClass("collapsed").removeClass("expanded");
+        
+        $(this).next().removeClass("collapsed");
+        $(this).next().addClass("expanded");
+        $(this).next().slideDown();
+        $(this).next().addClass("active");
+        
     }
-  });
-}
 
 
-$(".dropdown-btn").mouseenter(function() {
-    $(this).click();
-}).mouseleave(function() {
-    $(this).click();
+});
 });
 
-//$(".dropdown-btn").mouseenter(function() {
-//    if(!$("#"+$(this).attr("data-dropdown")).is(".open")) { // Checks if its dropdown is already open so it doesn't close it.
-//        $(this).click();
-//    }
-//});
+
+
+
 
 
 

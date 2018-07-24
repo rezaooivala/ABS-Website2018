@@ -1,0 +1,162 @@
+/* line 5, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+#navBar {
+  z-index: 100;
+  position: fixed;
+  top: 145px;
+  left: 30px;
+  background-color: transparent; }
+  /* line 13, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+  #navBar li {
+    list-style: none; }
+  /* line 15, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+  #navBar a {
+    text-decoration-line: none; }
+
+/* line 20, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+.nav1 {
+  color: #00EBFF;
+  transition-delay: 2s;
+  transition: color 2s; }
+  /* line 22, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+  .nav1 .active {
+    background-color: #00EBFF;
+    color: black;
+    transition: background-color 3s; }
+
+/* line 32, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+.nav2 {
+  color: black;
+  transition-delay: 2s;
+  transition: color 2s; }
+  /* line 34, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+  .nav2 .active {
+    background-color: black;
+    color: #E6E7E8;
+    transition: background-color 3s; }
+
+/* line 43, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+.nav3 {
+  color: #352C28;
+  transition-delay: 2s;
+  transition: color 2s; }
+  /* line 45, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+  .nav3 .active {
+    background-color: #352C28;
+    color: #FFBACC;
+    transition: background-color 3s; }
+
+/* line 58, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+.logo {
+  width: 36%;
+  font-size: 13pt;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: inherit; }
+
+/* line 66, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+.st0 {
+  fill: currentColor; }
+
+/* line 72, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+.sidenav {
+  position: fixed;
+  z-index: 1;
+  top: 43%;
+  left: 56px;
+  color: inherit; }
+
+/* line 80, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+.copy {
+  color: inherit; }
+
+/* line 84, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+.dropdown-btn {
+  padding: 0;
+  font-size: 16px;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  font-weight: 700; }
+
+/* line 96, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px; }
+
+/* line 103, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+.sidenav a, .dropdown-btn {
+  padding: 3px 0 0 14px;
+  color: inherit;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 16px;
+  display: block; }
+
+/* line 118, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+.sidenav a {
+  font-size: 13px; }
+
+/* line 125, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #FF00E2; }
+
+/* line 128, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+.sidenav a:active, .dropdown-btn:active {
+  color: pink;
+  font-weight: bolder; }
+
+/* line 136, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+.active {
+  padding: 3px 0 3px 7px;
+  font-size: 30px; }
+
+/* line 144, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+.dropdown-container {
+  display: none;
+  padding-left: 8px; }
+
+/* line 157, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+#arrow {
+  width: 2%;
+  position: fixed;
+  top: 92%;
+  left: 50%; }
+
+/* line 163, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+.social {
+  display: flex;
+  position: fixed;
+  top: 86%;
+  left: 30px; }
+  /* line 168, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+  .social li {
+    margin: 0 8px; }
+
+/* line 171, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+.fa {
+  padding: 3px 1px 3px 0;
+  font-size: 30px;
+  width: 25px; }
+
+/* line 176, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+.fa-caret-down {
+  margin-left: 5px;
+  font-size: 18px; }
+
+/* line 180, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+.fa-instagram {
+  color: inherit; }
+
+/* line 182, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+.fa-linkedin {
+  color: inherit; }
+
+/* line 184, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+.fa-dribbble {
+  color: inherit; }
+
+/*# sourceMappingURL=nav.css.map */
