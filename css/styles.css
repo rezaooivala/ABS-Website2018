@@ -1,4 +1,3 @@
-/* line 6, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
 body {
   font-family: "Roboto", sans-serif;
   cursor: hand;
@@ -8,139 +7,68 @@ body {
   width: 100%;
   height: 100%; }
 
-/* line 17, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+.wrapper {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto; }
+
+h1 {
+  font-size: 25pt; }
+
 #scroll {
   position: fixed;
   width: 100%;
   height: 100%;
   overflow: auto; }
 
-/* line 25, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
-#section1 {
+#U_U {
   background-size: cover;
   height: 100vh;
   background-color: black; }
+  #U_U .info {
+    position: absolute;
+    top: 140px;
+    left: 300px;
+    color: #00EBFF; }
+    #U_U .info h1 {
+      margin: 0; }
+    #U_U .info p {
+      margin: 5px 0; }
+  #U_U .smallstars {
+    position: absolute;
+    top: -20px;
+    left: 5%;
+    width: 90%; }
+  #U_U .bigstars {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%; }
+  #U_U .face {
+    position: absolute;
+    top: 30%;
+    left: 43.5%;
+    width: 15%; }
 
-/* line 31, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
-#section2 {
+#DashyDriver {
   background-color: #E6E7E8;
   background-size: cover;
-  color: black;
   height: 100vh; }
+  #DashyDriver .dash {
+    position: relative;
+    top: 140px;
+    left: 100px; }
+    #DashyDriver .dash h1 {
+      margin: 0; }
+    #DashyDriver .dash p {
+      margin: 10px 0; }
+  #DashyDriver .car {
+    width: 100%;
+    position: inherit;
+    margin-top: 22%;
+    margin-left: 10%; }
 
-/* line 37, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
-#section3 {
+#SuperDuperPunch {
+  height: 100vh;
   background-size: cover;
-  height: 100vh;
   background-color: #FFBACC; }
-
-/* line 43, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
-h1 {
-  font-size: 25pt; }
-
-/* line 46, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
-.wrapper {
-  width: 100%;
-  max-width: 1100px;
-  margin: 0 auto; }
-
-/* line 52, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
-ul a:hover {
-  color: #FF00E2; }
-
-/* line 55, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
-.logo {
-  width: 36%;
-  font-size: 13pt;
-  font-weight: 700;
-  letter-spacing: 1px; }
-
-/* line 63, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
-.links {
-  position: fixed;
-  top: 330px; }
-  /* line 66, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
-  .links li {
-    margin: 5px auto; }
-
-/* line 70, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
-.l {
-  font-size: 12pt;
-  font-weight: 500;
-  font-kerning: normal;
-  color: #00EBFF;
-  letter-spacing: 1px; }
-
-/* line 79, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
-.copy {
-  position: fixed;
-  font-size: 10pt;
-  color: #00EBFF;
-  top: 92%;
-  left: 78px;
-  right: 78px; }
-
-/* line 88, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
-.scrolled {
-  background-color: #00EBFF;
-  transition: 0.3s; }
-
-/* line 95, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
-.info {
-  position: absolute;
-  top: 140px;
-  left: 300px;
-  color: #00EBFF; }
-  /* line 100, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
-  .info h1 {
-    margin: 0; }
-  /* line 102, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
-  .info p {
-    margin: 5px 0; }
-
-/* line 108, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
-article {
-  height: 100vh;
-  margin: 0 auto; }
-
-/* line 112, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
-.smallstars {
-  position: absolute;
-  top: -20px;
-  left: 5%;
-  width: 90%; }
-
-/* line 118, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
-.bigstars {
-  position: absolute;
-  top: 10%;
-  left: 10%;
-  width: 80%; }
-
-/* line 126, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
-.face {
-  position: absolute;
-  top: 30%;
-  left: 43.5%;
-  width: 15%; }
-
-/* line 137, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
-.car {
-  width: 100%;
-  position: inherit;
-  margin-top: 22%;
-  margin-left: 10%; }
-
-/* line 144, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
-.dash {
-  position: relative;
-  top: 140px;
-  left: 100px; }
-  /* line 148, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
-  .dash h1 {
-    margin: 0; }
-  /* line 150, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
-  .dash p {
-    margin: 10px 0; }
-
-/*# sourceMappingURL=styles.css.map */

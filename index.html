@@ -24,20 +24,14 @@
         
 <!--
         <script>
-                    $(document).ready(function(){
-
+         $(document).ready(function(){
           $("a").on('click', function(event) {
-
             if (this.hash !== "") {
-
               event.preventDefault();
-
               var hash = this.hash;
-
               $('#scroll').animate({
                 scrollTop: $(hash).offset().top
-              }, 100, function(){
-
+              }, 1000, function(){
                 window.location.hash = hash;
               });
             } 
@@ -58,7 +52,7 @@
        
     <nav>
         <div id="navBar" class="nav1">
-              <ul>
+           <ul>
                 <li><a href="#" class="logo"><svg version="1.1" id="Group_80" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                 viewBox="0 0 141 74.2" style="enable-background:new 0 0 141 74.2;" xml:space="preserve">
                 <path id="Path_1" class="st0" d="M123.3,17.7V0H17.7v17.7H123.3v17.5h17.5V17.7H123.3z"/>
@@ -82,59 +76,56 @@
 
 
           <div  class="sidenav">
-              <button class="dropdown-btn">INTERACTIVE DEV.<i class="fa fa-caret-down"></i>
+              <button class="dropdown-btn"><span>INTERACTIVE DEV.<i class="fa fa-caret-down"></i></span>
               </button>
-              <div class="dropdown-container">
-                <a id="uu" href="#section1" onclick="uu()">U-U</a>
-                <a id="dd" href="#section2" onclick="dd()">DASHY DRIVER</a>
-                <a id="sdp" href="#section3" onclick="sdp()">SUPER DUPER PUNCH</a>
-              </div>
+                      <div class="dropdown-container">
+                        <a id="uu" href="#U_U" onclick="uu()">U-U</a>
+                        <a id="dd" href="#DashyDriver" onclick="dd()">DASHY DRIVER</a>
+                        <a id="sdp" href="#SuperDuperPunch" onclick="sdp()">SUPER DUPER PUNCH</a>
+                      </div>
 
-              <button class="dropdown-btn">AR EXPERIENCE<i class="fa fa-caret-down"></i>
+              <button class="dropdown-btn"><span>AR EXPERIENCE<i class="fa fa-caret-down"></i></span>
               </button>
-              <div class="dropdown-container">
-                <a href="#">LENS STUDIO</a>
-                <a href="#">ZOOKAZAM</a>
-              </div>
+                      <div class="dropdown-container">
+                        <a href="#">LENS STUDIO</a>
+                        <a href="#">ZOOKAZAM</a>
+                        <a href="#">KILL2BIRDS</a>
+                      </div>
 
-               <button class="dropdown-btn">MOTION DESIGN<i class="fa fa-caret-down"></i>
+               <button class="dropdown-btn"><span>MOTION DESIGN<i class="fa fa-caret-down"></i></span>
               </button>
-              <div class="dropdown-container">
-                <a href="#">CODED WALLPAPER</a>
-                <a href="#">TARGET DATA_VIZ</a>
-                <a href="#">CINCO DE MAYO</a>
-                <a href="#">AT&T DIGITAL HOME</a>
-              </div>
+                      <div class="dropdown-container">
+                        <a href="#">CODED WALLPAPER</a>
+                        <a href="#">TARGET DATA_VIZ</a>
+                        <a href="#">CINCO DE MAYO</a>
+                        <a href="#">AT&T DIGITAL HOME</a>
+                      </div>
 
 
               <div>
-                  <button class="dropdown-btn">VISUAL DESIGN
-
-                  </button>
+                  <button class="dropdown-btn"><span>VISUAL DESIGN</span></button>
               </div>
-
-
-
-              <button class="dropdown-btn">CHARACTER DESIGN
-
-              </button>
+              
+              <button class="dropdown-btn"><span>CHARACTER DESIGN</span></button>
 
 
          </div>
-
-
-
-              <div>
-                     <a href="#" id="arrow" ><img src="img/arrow.svg"></a>
+            <div class="arrow" >
+                     <a href="#"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 50.3 32.2" style="enable-background:new 0 0 50.3 32.2;" xml:space="preserve">
+<style type="text/css">
+	.st1{fill:none;stroke-width:10;}
+</style>
+<path id="Path_91" class="st1" d="M3.5,3.5l21.6,21.6L46.8,3.5"/>
+</svg>
+</a>
               </div>
-
-
             <ul class="social">
                 <li><a href="#" class="fa fa-instagram"></a></li>
                 <li><a href="#" class="fa fa-linkedin"></a></li>
                 <li><a href="#" class="fa fa-dribbble "></a></li>
             </ul>
-            <p class="copy">Alavi Bros Studio. Reza Alavi & Amir Alavi Since 2010 - All rights reserved 2018</p>
+            <p class="footy">Alavi Bros Studio. Reza Alavi & Amir Alavi Since 2010 - All rights reserved 2018</p>
         </div>
     </nav>
     
@@ -143,7 +134,7 @@
         
          
         <div id="scroll">
-            <section id="section1">
+            <section id="U_U">
                   <div id="wrapper">
 
                       <div class="info">
@@ -169,7 +160,7 @@
 
                   </div>
             </section>
-            <section id="section2">
+            <section id="DashyDriver">
                   <div class=wrapper>
 
                       <div class="dash">
@@ -181,33 +172,21 @@
                        <img class="car" src="img/dashycar.svg"> 
                   </div>
              </section>
-            <section id="section3">
+            <section id="SuperDuperPunch">
                   <div id="wrapper">
 
-                      <div class="info">
-                        <h1>U_U</h1>
-                        <p>Coming Soon!!!<br>
-                           on AppStore and GooglePlay</p>
+                      <div class="">
+                        
                       </div>
 
                     <article> 
-                          <div class="smallstars">
-                              <img src="img/uusmallstars.svg">
-                          </div>  
-
-                          <div class="bigstars">
-                              <img src="img/uubigstars.svg">
-                          </div>
-
-                           <div class="face">
-                              <img src="img/uuface.svg">
-                          </div>
+                      
                     </article> 
 
 
                   </div>
             </section>
-            
+
         </div>
         
  

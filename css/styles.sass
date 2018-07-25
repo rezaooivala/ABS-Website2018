@@ -1,5 +1,4 @@
-$lightblue: #00EBFF
-$highlight: #FF00E2
+@import "_variables.sass"
 
 
 
@@ -11,7 +10,18 @@ body
     background: black
     width: 100%
     height: 100%
+
+//article
+//    height: 100vh
+//    margin: 0 auto
     
+.wrapper
+    width: 100%
+    max-width: 1100px
+    margin: 0 auto
+    
+h1
+    font-size: 25pt
     
     
 #scroll
@@ -22,130 +32,88 @@ body
 
 
 
-#section1
+#U_U
     background-size: cover
     height: 100vh
     background-color: black 
     
+    .info
+        position: absolute
+        top: 140px
+        left: 300px
+        color: $lightblue
+        h1
+          margin: 0
+        p 
+          margin: 5px 0
+        
+    .smallstars
+        position: absolute
+        top: -20px
+        left: 5%
+        width: 90%
+
+    .bigstars 
+       position: absolute
+       top: 10%
+       left: 10%
+       width: 80%
+
+    .face
+        position: absolute
+        top: 30%
+        left: 43.5%
+        width: 15%
     
-#section2
+   
+    
+    
+#DashyDriver
     background-color: #E6E7E8
     background-size: cover
-    color: black
     height: 100vh
+    .dash
+        position: relative
+        top: 140px
+        left: 100px
+        h1
+          margin: 0
+        p 
+          margin: 10px 0
+    .car
+        width: 100%
+        position: inherit
+        margin-top: 22%
+        margin-left: 10%
+        
     
-#section3
+    
+#SuperDuperPunch
+    height: 100vh
     background-size: cover
-    height: 100vh
     background-color: #FFBACC
-
-    
-h1
-    font-size: 25pt
-    
-.wrapper
-    width: 100%
-    max-width: 1100px
-    margin: 0 auto
-    
-ul
-    a:hover
-     color: $highlight
-    
-.logo
-    width: 36%    
-    font-size: 13pt
-    font-weight: 700
-    letter-spacing: 1px
-
-    
-    
-.links
-    position: fixed
-    top: 330px
-    li
-        margin: 5px auto
-
-    
-.l
-    font-size: 12pt
-    font-weight: 500
-    font-kerning: normal
-    color: $lightblue
-    letter-spacing: 1px
     
 
 
-.copy
-    position: fixed
-    font-size: 10pt
-    color: $lightblue
-    top: 92%
-    left: 78px
-    right: 78px
+    
+
+    
        
    
-.scrolled
-  background-color: $lightblue
-  transition: 0.3s
     
 
     
-    
-.info
-    position: absolute
-    top: 140px
-    left: 300px
-    color: $lightblue
-    h1
-      margin: 0
-    p 
-      margin: 5px 0
-    
-    
 
     
-article
-    height: 100vh
-    margin: 0 auto
-    
-.smallstars
-    position: absolute
-    top: -20px
-    left: 5%
-    width: 90%
-    
-.bigstars 
-   position: absolute
-   top: 10%
-   left: 10%
-   width: 80%
 
 
-
-.face
-    position: absolute
-    top: 30%
-    left: 43.5%
-    width: 15%
    
    
     
 
 
    
-.car
-    width: 100%
-    position: inherit
-    margin-top: 22%
-    margin-left: 10%
+
    
     
-.dash
-    position: relative
-    top: 140px
-    left: 100px
-    h1
-      margin: 0
-    p 
-      margin: 10px 0
+

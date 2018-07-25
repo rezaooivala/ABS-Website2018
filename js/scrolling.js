@@ -17,15 +17,15 @@ function ScrollHandler(pageId) {
 
   function scrollToPage() {
    //Change navBar color
-        if(pageId == "section1"){
+        if(pageId == "U_U"){
         n.classList.remove("nav2")
         n.classList.add("nav1");
         
-    } else  if(pageId == "section2"){
+    } else  if(pageId == "DashyDriver"){
         n.classList.remove("nav3")
         n.classList.add("nav2");
         
-    } else  if(pageId == "section3"){
+    } else  if(pageId == "SuperDuperPunch"){
         n.classList.remove("nav1")
         n.classList.add("nav3");
     }
@@ -133,9 +133,9 @@ function ScrollHandler(pageId) {
 
 
  
-new ScrollHandler("section1");
-new ScrollHandler("section2");
-new ScrollHandler("section3");
+new ScrollHandler("U_U");
+new ScrollHandler("DashyDriver");
+new ScrollHandler("SuperDuperPunch");
 
 
 

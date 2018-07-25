@@ -24,7 +24,7 @@ $(".sidenav").on('click', '.dropdown-btn', function (event) {
         $(this).next().removeClass("collapsed");
         $(this).next().addClass("expanded");
         $(this).next().slideDown();
-        $(this).next().addClass("active");
+//        $(this).next().addClass("active");
         
     }
 

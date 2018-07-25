@@ -1,15 +1,15 @@
-$lightblue: #00EBFF
-$highlight: #FF00E2
+@import "_variables.sass"
+@import "_mixins.sass"
+
+
     
 
 #navBar
     z-index: 100
     position: fixed
     top: 145px
-    left: 30px
-    
+    left: 38px
     background-color: transparent
-    
     li
         list-style: none
     a 
@@ -20,146 +20,112 @@ $highlight: #FF00E2
 .nav1
     color: $lightblue
     .active
-        background-color: $lightblue
         color: black
-        
         transition: background-color 3s
-    transition-delay: 2s
-    transition: color 2s
+    span
+        color: black
+        +anim
+    +anim
+    .st1
+        stroke: $lightblue
+        +anim
     
     
     
 .nav2
     color: black
     .active
-        background-color: black
-        color: #E6E7E8
-        
+        color: $grey
         transition: background-color 3s
-    transition-delay: 2s
-    transition: color 2s
-    
+    span
+        color: $grey
+        +anim
+    +anim
+    .st1
+        stroke: black 
+        +anim
+ 
     
 .nav3
-    color: #352C28
+    color: $brown
     .active
-        background-color: #352C28
-        color: #FFBACC
-        
+        color: $sdpink
         transition: background-color 3s
-    transition-delay: 2s
-    transition: color 2s
+    span
+        color: $sdpink
+        +anim
+    +anim
+    .st1
+        stroke: $brown 
+        +anim
     
     
-   
-        
-
-
 .logo
     width: 36%
     font-size: 13pt
     font-weight: 700
     letter-spacing: 1px
     color: inherit
+    .st0
+      fill: currentColor    
 
-
-.st0
-    fill: currentColor
-    
- 
-    
 
 .sidenav
     position: fixed
     z-index: 1
     top: 43%
     left: 56px
-    color: inherit
-    
-    
-.copy
-   color: inherit 
 
+    
 
 .dropdown-btn 
-    padding: 0
-    font-size: 16px
     display: block
     border: none
-    background: none
     width: 100%
     text-align: left
-    cursor: pointer
+    cursor: hand
     outline: none
-    font-weight: 700
-    
-.fa-caret-down 
-    float: right;
-    padding-right: 8px;
+    background-color: currentColor
+    padding: 2px 0px 2px 12px    
+a 
+ font-size: 12px
+ 
 
 
 
-
-.sidenav a, .dropdown-btn 
+.sidenav a
     padding: 3px 0 0 14px
     color: inherit
-    text-decoration: none
     font-weight: normal
-    font-size: 16px
     display: block
-    
-//    background: none
-//    width: 100%
-//    text-align: left
-//    cursor: pointer
-//    outline: none
-    
-    
-.sidenav a
-    font-size: 13px
-    
-
-
-        
         
 .sidenav a:hover, .dropdown-btn:hover 
      color: $highlight
 
 .sidenav a:active, .dropdown-btn:active
-     color: pink
-     font-weight: bolder
+     color: yellow
+ 
+ 
 
-    
+//_______________________// 
 
-
-
-.active 
-    padding: 3px 0 3px 7px
-    font-size: 30px
-    
-    
-    
-
-
-.dropdown-container 
-    display: none
-    padding-left: 8px
-    
-
-
-
-  
-    
-    
-//_______________________//    
-    
-    
-#arrow
+.arrow
     width: 2%
     position: fixed
     top: 92%
     left: 50%
+   
+
+
+.footy
+   color: inherit 
+   position: fixed
+   font-size: 10pt
+   top: 92%
+   left: 78px
+   right: 78px
     
+
 .social
     display: flex
     position: fixed
@@ -174,8 +140,9 @@ $highlight: #FF00E2
   width: 25px
 
 .fa-caret-down 
-  margin-left: 5px
-  font-size: 18px
+  float: right
+  margin-left: 10px
+  font-size: 12px
  
 .fa-instagram 
   color: inherit
