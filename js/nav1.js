@@ -1,5 +1,5 @@
 function uu(){  
-for(var i = 1; i <=3; i++){
+for(var i = 1; i <=10; i++){
   document.getElementById("navBar").classList.remove("nav"+i);  
 }
  document.getElementById("navBar").classList.add("nav1");
@@ -8,7 +8,7 @@ for(var i = 1; i <=3; i++){
 
 
 function dd(){  
-for(var i = 1; i <=3; i++){
+for(var i = 1; i <=10; i++){
   document.getElementById("navBar").classList.remove("nav"+i);  
 }
  document.getElementById("navBar").classList.add("nav2");
@@ -17,8 +17,24 @@ for(var i = 1; i <=3; i++){
 
 
 function sdp(){
-for(var i = 1; i <=3; i++){
+for(var i = 1; i <=10; i++){
   document.getElementById("navBar").classList.remove("nav"+i);  
 }
  document.getElementById("navBar").classList.add("nav3");
+};
+
+
+function snap(){
+for(var i = 1; i <=10; i++){
+  document.getElementById("navBar").classList.remove("nav"+i);  
+}
+ document.getElementById("navBar").classList.add("nav4");
+};
+
+
+function ZooKazam(){
+for(var i = 1; i <=10; i++){
+  document.getElementById("navBar").classList.remove("nav"+i);  
+}
+ document.getElementById("navBar").classList.add("nav5");
 };

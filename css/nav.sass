@@ -1,5 +1,5 @@
 @import "_variables.sass"
-@import "_mixins.sass"
+@import "_mixins.scss"
 
 
     
@@ -14,7 +14,8 @@
         list-style: none
     a 
         text-decoration-line: none
- 
+a 
+ font-size: 12px
 
     
 .nav1
@@ -24,11 +25,11 @@
         transition: background-color 3s
     span
         color: black
-        +anim
-    +anim
+        @include anim(2s)
+    @include anim(2s)
     .st1
         stroke: $lightblue
-        +anim
+        @include anim(2s)
     
     
     
@@ -39,11 +40,11 @@
         transition: background-color 3s
     span
         color: $grey
-        +anim
-    +anim
+        @include anim(2s)
+    @include anim(2s)
     .st1
         stroke: black 
-        +anim
+        @include anim(2s)
  
     
 .nav3
@@ -53,11 +54,37 @@
         transition: background-color 3s
     span
         color: $sdpink
-        +anim
-    +anim
+        @include anim(2s)
+    @include anim(2s)
     .st1
         stroke: $brown 
-        +anim
+        @include anim(2s)
+            
+.nav4
+    color: $darkgrey
+    .active
+        color: $sdpink
+        transition: background-color 3s
+    span
+        color: $snap
+        @include anim(2s)
+    @include anim(2s)
+    .st1
+        stroke: $darkgrey
+        @include anim(2s)
+            
+.nav5
+    color: $darkgrey
+    .active
+        color: $sdpink
+        transition: background-color 3s
+    span
+        color: white
+        @include anim(2s)
+    @include anim(2s)
+    .st1
+        stroke: $darkgrey
+        @include anim(2s)
     
     
 .logo
@@ -87,8 +114,7 @@
     outline: none
     background-color: currentColor
     padding: 2px 0px 2px 12px    
-a 
- font-size: 12px
+
  
 
 
@@ -124,9 +150,12 @@ a
    top: 92%
    left: 78px
    right: 78px
+   margin-right: 55%
     
 
 .social
+    margin-top: 15px
+    margin-bottom: 0
     display: flex
     position: fixed
     top: 86%

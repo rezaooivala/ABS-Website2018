@@ -1,3 +1,4 @@
+/* line 6, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
 body {
   font-family: "Roboto", sans-serif;
   cursor: hand;
@@ -6,69 +7,166 @@ body {
   background: black;
   width: 100%;
   height: 100%; }
+  /* line 14, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+  body h1 {
+    font-size: 25pt;
+    margin: 0;
+    font-weight: bold; }
+  /* line 18, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+  body h3 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 15pt; }
+  /* line 23, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+  body p {
+    margin: 10px 0;
+    margin-right: 60%; }
 
+/* line 28, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
 .wrapper {
   width: 100%;
   max-width: 1100px;
   margin: 0 auto; }
 
-h1 {
-  font-size: 25pt; }
-
+/* line 34, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
 #scroll {
   position: fixed;
   width: 100%;
   height: 100%;
   overflow: auto; }
 
+/* line 41, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+.learnMore {
+  margin-top: 10px;
+  background-color: transparent;
+  padding: 15px 35px;
+  border: solid;
+  border-width: 5px;
+  border-radius: 50px; }
+
+/* line 49, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+button:hover {
+  color: #FF00E2;
+  border-color: #FF00E2;
+  transition-delay: 0.5s;
+  transition: 0.5s; }
+
+/* line 58, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
 #U_U {
   background-size: cover;
   height: 100vh;
   background-color: black; }
-  #U_U .info {
+  /* line 63, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+  #U_U .copy {
     position: absolute;
     top: 140px;
     left: 300px;
     color: #00EBFF; }
-    #U_U .info h1 {
-      margin: 0; }
-    #U_U .info p {
-      margin: 5px 0; }
+  /* line 68, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+  #U_U p {
+    margin: 0; }
+  /* line 71, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
   #U_U .smallstars {
     position: absolute;
     top: -20px;
     left: 5%;
     width: 90%; }
+  /* line 77, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
   #U_U .bigstars {
     position: absolute;
     top: 10%;
     left: 10%;
     width: 80%; }
+  /* line 83, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
   #U_U .face {
     position: absolute;
     top: 30%;
     left: 43.5%;
     width: 15%; }
 
+/* line 91, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
 #DashyDriver {
-  background-color: #E6E7E8;
+  height: 100vh;
   background-size: cover;
-  height: 100vh; }
-  #DashyDriver .dash {
-    position: relative;
-    top: 140px;
-    left: 100px; }
-    #DashyDriver .dash h1 {
-      margin: 0; }
-    #DashyDriver .dash p {
-      margin: 10px 0; }
-  #DashyDriver .car {
+  background-color: #E6E7E8;
+  overflow: auto; }
+  /* line 96, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+  #DashyDriver .copy {
+    position: absolute;
+    top: 900px;
+    left: 270px;
+    color: black; }
+  /* line 102, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+  #DashyDriver img {
+    float: right;
     width: 100%;
     position: inherit;
-    margin-top: 22%;
-    margin-left: 10%; }
+    margin-top: 30%;
+    margin-right: -10%; }
 
+/* line 111, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
 #SuperDuperPunch {
   height: 100vh;
   background-size: cover;
-  background-color: #FFBACC; }
+  background-color: #FFBACC;
+  overflow: auto; }
+  /* line 116, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+  #SuperDuperPunch .copy {
+    position: relative;
+    top: 140px;
+    left: 270px;
+    color: #352C28; }
+  /* line 122, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+  #SuperDuperPunch .sdp {
+    position: inherit;
+    margin-top: -25%;
+    margin-left: 33%; }
+
+/* line 129, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+#LensStudio {
+  height: 100vh;
+  background-size: cover;
+  background-color: #FFFB00;
+  overflow: auto; }
+  /* line 134, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+  #LensStudio .copy {
+    position: relative;
+    top: 140px;
+    left: 270px;
+    color: #6E6F71; }
+  /* line 139, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+  #LensStudio img {
+    float: right;
+    width: 60%;
+    position: inherit;
+    margin-top: 0;
+    margin-right: 3%; }
+
+/* line 148, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+#ZooKazam {
+  height: 100vh;
+  background-size: cover;
+  background-color: white;
+  overflow: auto; }
+  /* line 153, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+  #ZooKazam .copy {
+    position: relative;
+    top: 140px;
+    left: 270px;
+    color: #6E6F71; }
+  /* line 158, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+  #ZooKazam img.zoo {
+    float: right;
+    width: 30%;
+    position: inherit;
+    margin-top: -86px;
+    margin-right: 10%; }
+  /* line 164, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+  #ZooKazam img.awa {
+    float: right;
+    width: 30%;
+    position: relative;
+    top: 350px;
+    left: 31%; }
+
+/*# sourceMappingURL=styles.css.map */

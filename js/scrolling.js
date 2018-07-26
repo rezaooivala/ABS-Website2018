@@ -18,17 +18,26 @@ function ScrollHandler(pageId) {
   function scrollToPage() {
    //Change navBar color
         if(pageId == "U_U"){
-        n.classList.remove("nav2")
+        n.classList.remove("nav2");
         n.classList.add("nav1");
         
     } else  if(pageId == "DashyDriver"){
-        n.classList.remove("nav3")
+        n.classList.remove("nav3");
         n.classList.add("nav2");
         
     } else  if(pageId == "SuperDuperPunch"){
-        n.classList.remove("nav1")
+        n.classList.remove("nav4");
         n.classList.add("nav3");
+        
+    }else  if(pageId == "LensStudio"){
+        n.classList.remove("nav5");
+        n.classList.add("nav4");
+        
+    }else  if(pageId == "ZooKazam"){
+        n.classList.remove("nav6");
+        n.classList.add("nav5");
     }
+      
       
       
       
@@ -136,6 +145,9 @@ function ScrollHandler(pageId) {
 new ScrollHandler("U_U");
 new ScrollHandler("DashyDriver");
 new ScrollHandler("SuperDuperPunch");
+new ScrollHandler("LensStudio");
+new ScrollHandler("ZooKazam");
+new ScrollHandler("Kill2Birds");
 
 
 
