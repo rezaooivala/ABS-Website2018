@@ -15,6 +15,7 @@ body
         font-size: 25pt
         margin: 0
         font-weight: bold
+        margin-right: 40%
     h3
         margin: 0
         font-weight: bold
@@ -23,6 +24,23 @@ body
     p 
         margin: 10px 0
         margin-right: 60%
+        
+    @media screen and (max-width: 700px)
+        h1
+            font-size: 20pt
+            margin: 0
+            font-weight: bold
+            margin-right: 40%
+        h3
+            margin: 0
+            font-weight: bold
+            font-size: 12pt
+
+        p 
+            margin: 10px 0
+            margin-right: 50%
+            font-size: 10pt
+        
         
     
 .wrapper
@@ -83,7 +101,7 @@ button:hover
     .face
         position: absolute
         top: 30%
-        left: 43.5%
+        left: 42.3%
         width: 15%
         
         
@@ -93,6 +111,10 @@ button:hover
     background-size: cover
     background-color: $grey
     overflow: auto
+    h1
+        margin: 0
+    p 
+       margin: 0
     .copy
         position: absolute
         top: 900px
@@ -100,12 +122,17 @@ button:hover
         color: black
   
     img
-        float: right
-        width: 100%
-        position: inherit
-        margin-top: 30%
-        margin-right: -10%
+        display: flex
+        flex-direction: row
+        position: relative
+        top: 330px
+        left: 100px
         
+    @media screen and (max-width: 1000px)
+      img
+        width: 80%
+        top: 400px
+        left: 200px
   
     
 #SuperDuperPunch
@@ -159,22 +186,148 @@ button:hover
         float: right
         width: 30%
         position: inherit
-        margin-top: -86px
+        margin-top: -126px
         margin-right: 10%
     img.awa
         float: right
         width: 30%
         position: relative
-        top: 350px
+        top: 300px
         left: 31%
         
     
-  
+#Kill2Birds
+    height: 100vh
+    background-size: cover
+    background-color: $k2bl
+    overflow: auto
+    .copy
+        position: relative
+        top: 140px
+        left: 270px
+        color: $k2bd 
+    img
+        float: right
+        width: 45%
+        position: inherit
+        margin-top: 5%
+        margin-right: 6%
         
+        
+#Processing
+    background: url("../img/processing.gif") no-repeat
+    background-size: cover
+    height: 100vh
+    overflow: auto
+    .copy
+        position: relative
+        top: 140px
+        left: 270px
+        color: yellow 
+
+        
+        
+      
+#DataViz
+    background-size: cover
+    background-color: #F3F3F3
+    height:  100vh
+    overflow: auto
+    .copy
+        position: relative
+        top: 140px
+        left: 270px
+        color: $k2bd
+    img
+      float: right
+      width: 100%
+      position: inherit
+      margin-top: -450px 
+      margin-right: 200px
+
         
         
 
 
+
+
+#CincoDeMayo
+    background: url("../img/cinco.jpg") no-repeat
+    background-size: cover
+    height: 100vh
+    overflow: auto
+    .copy
+        position: relative
+        top: 140px
+        left: 270px
+        color: white 
+        
+        
+#ATTDigitalHome
+    background-color: #6AA5C9
+    height:  100vh
+    overflow: auto
+    img
+        float: right
+        width: 57%
+        position: relative
+        top: 65px
+        left: 190px
+    .copy
+        position: relative
+        top: 140px
+        left: 270px
+        color: white
+        
+        
+        
+#KibokoCafe
+    background-color: white
+    height:  100vh
+    overflow: auto
+    img
+        float: right
+        width: 30%
+        position: relative
+        top: -50px 
+        right: 100px
+    .copy
+        position: relative
+        top: 140px
+        left: 270px
+        color: $kiboko
+        
+        
+        
+#KillPills
+    background-color: $kill
+    height:  100vh
+    overflow: auto
+    .copy
+        position: relative
+        top: 140px
+        left: 270px
+        color: $darkgrey
+    img
+        width: 75%
+    .kill
+        display: flex
+        justify-content: flex-end
+        float: right
+        list-style: none
+        flex-flow: wrap
+        margin: -30px
+        position: inherit
+        margin-top: 3%
+    .flex-item
+        margin: 0 -50px
+
+
+    
+   
+        
+
+   
 
 
     

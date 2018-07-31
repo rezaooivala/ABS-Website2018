@@ -36,6 +36,28 @@ function ScrollHandler(pageId) {
     }else  if(pageId == "ZooKazam"){
         n.classList.remove("nav6");
         n.classList.add("nav5");
+    }else  if(pageId == "Kill2Birds"){
+        n.classList.remove("nav7");
+        n.classList.add("nav6");
+    }
+      else  if(pageId == "Processing"){
+        n.classList.remove("nav8");
+        n.classList.add("nav7");
+    }
+        else  if(pageId == "DataViz"){
+        n.classList.remove("nav9");
+        n.classList.add("nav8");
+    }    else  if(pageId == "CincoDeMayo"){
+        n.classList.remove("nav10");
+        n.classList.add("nav9");
+    }   else  if(pageId == "ATTDigitalHome"){
+        n.classList.remove("nav11");
+        n.classList.add("nav10");
+    }   else  if(pageId == "KibokoCafe"){
+        n.classList.remove("nav12");
+        n.classList.add("nav11");
+    }   else  if(pageId == "KillPills"){
+        n.classList.add("nav12");
     }
       
       
@@ -148,6 +170,12 @@ new ScrollHandler("SuperDuperPunch");
 new ScrollHandler("LensStudio");
 new ScrollHandler("ZooKazam");
 new ScrollHandler("Kill2Birds");
+new ScrollHandler("Processing");
+new ScrollHandler("DataViz");
+new ScrollHandler("CincoDeMayo");
+new ScrollHandler("ATTDigitalHome");
+new ScrollHandler("KibokoCafe");
+new ScrollHandler("KillPills");
 
 
 

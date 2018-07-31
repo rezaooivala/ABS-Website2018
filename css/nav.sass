@@ -14,34 +14,44 @@
         list-style: none
     a 
         text-decoration-line: none
+  
+    a:visited
+        color: inherit
+        
+    a:hover
+        color: $highlight
+        @include anim(0.5s)
+        
+    
+        
 a 
  font-size: 12px
 
     
 .nav1
     color: $lightblue
+    @include anim(2s)
     .active
         color: black
         transition: background-color 3s
     span
         color: black
         @include anim(2s)
-    @include anim(2s)
     .st1
         stroke: $lightblue
-        @include anim(2s)
+        @include anim(0.2s)
     
     
     
 .nav2
     color: black
+    @include anim(2s)
     .active
         color: $grey
         transition: background-color 3s
     span
         color: $grey
         @include anim(2s)
-    @include anim(2s)
     .st1
         stroke: black 
         @include anim(2s)
@@ -49,39 +59,134 @@ a
     
 .nav3
     color: $brown
+    @include anim(2s)
     .active
         color: $sdpink
         transition: background-color 3s
     span
         color: $sdpink
         @include anim(2s)
-    @include anim(2s)
     .st1
         stroke: $brown 
         @include anim(2s)
             
 .nav4
     color: $darkgrey
+    @include anim(2s)
     .active
         color: $sdpink
         transition: background-color 3s
     span
         color: $snap
         @include anim(2s)
-    @include anim(2s)
     .st1
         stroke: $darkgrey
         @include anim(2s)
             
 .nav5
     color: $darkgrey
+    @include anim(2s)
     .active
         color: $sdpink
         transition: background-color 3s
     span
         color: white
         @include anim(2s)
+    .st1
+        stroke: $darkgrey
+        @include anim(2s)
+            
+.nav6
+    color: $k2bd
     @include anim(2s)
+    .active
+        color: $sdpink
+        transition: background-color 3s
+    span
+        color: $k2bl
+        @include anim(2s)
+    .st1
+        stroke: $k2bd
+        @include anim(2s)
+            
+            
+.nav7
+    color: yellow
+    @include anim(2s)
+    .active
+        color: $sdpink
+        transition: background-color 3s
+    span
+        color: black
+        @include anim(2s)
+    .st1
+        stroke: yellow
+        @include anim(2s)
+    
+            
+.nav8
+    color: $k2bd
+    @include anim(2s)
+    .active
+        color: $sdpink
+        transition: background-color 3s
+    span
+        color: #F3F3F3
+        @include anim(2s)
+    .st1
+        stroke: $k2bd
+        @include anim(2s)
+            
+.nav9
+    color: white
+    @include anim(2s)
+    .active
+        color: $sdpink
+        transition: background-color 3s
+    span
+        color: purple
+        @include anim(2s)
+    .st1
+        stroke: white
+        @include anim(2s)
+            
+
+.nav10
+    color: white
+    @include anim(2s)
+    .active
+        color: $sdpink
+        transition: background-color 3s
+    span
+        color: #6AA5C9
+        @include anim(2s)
+    .st1
+        stroke: white
+        @include anim(2s)
+            
+.nav11
+    color: $kiboko
+    @include anim(2s)
+    .active
+        color: $sdpink
+        transition: background-color 3s
+    span
+        color: white
+        @include anim(2s)
+    .st1
+        stroke: $kiboko
+        @include anim(2s)
+            
+            
+.nav12
+    color: $darkgrey
+    @include anim(2s)
+    .active
+        color: $sdpink
+        transition: background-color 3s
+    span
+        color: yellow
+        @include anim(2s)
     .st1
         stroke: $darkgrey
         @include anim(2s)
@@ -135,22 +240,55 @@ a
 
 //_______________________// 
 
+
+
+      
+
 .arrow
     width: 2%
     position: fixed
     top: 92%
-    left: 50%
+    left: 49%
+    @media screen and (max-width: 700px) 
+     width: 4%
+     top: 94%
+    
+    
+.emailP
+    margin: 0
+    position: fixed
+    top: 83%
+    left: 57px
+    font-size: 14pt
+    
+    
+.email
+   background-color: transparent
+   padding: 5px 25px
+   font-size: 15pt
+   border: solid 
+   border-radius: 230px
+   position: fixed
+   top: 86.8%
+   left: 50px
+   
+
    
 
 
 .footy
    color: inherit 
    position: fixed
-   font-size: 10pt
+   font-size: 8pt
    top: 92%
-   left: 78px
+   left: 57px
    right: 78px
-   margin-right: 55%
+   margin-right: 20%
+
+   @media screen and (max-width: 900px) 
+    font-size: 6pt
+   @media screen and (max-width: 700px) 
+    display: none
     
 
 .social
@@ -158,10 +296,11 @@ a
     margin-bottom: 0
     display: flex
     position: fixed
-    top: 86%
-    left: 30px
+    top: 85.4%
+    left: 200px
     li
       margin: 0 8px
+
  
 .fa 
   padding: 3px 1px 3px 0
