@@ -146,7 +146,7 @@ a {
 
 /* line 113, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
 .nav7 {
-  color: yellow;
+  color: #ff48ff;
   transition-delay: 2s;
   transition: 2s; }
   /* line 116, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
@@ -155,12 +155,12 @@ a {
     transition: background-color 3s; }
   /* line 119, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
   .nav7 span {
-    color: black;
+    color: #4e34f1;
     transition-delay: 2s;
     transition: 2s; }
   /* line 122, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
   .nav7 .st1 {
-    stroke: yellow;
+    stroke: #ff48ff;
     transition-delay: 2s;
     transition: 2s; }
 
