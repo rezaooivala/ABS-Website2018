@@ -1,192 +1,81 @@
+var top1 = $('#U_U').offset().top-300;
+var top2 = $('#DashyDriver').offset().top-300;
+var top3 = $('#SuperDuperPunch').offset().top-300;
+var top4 = $('#LensStudio').offset().top-300;
+var top5 = $('#ZooKazam').offset().top-300;
+var top6 = $('#Processing').offset().top-300;
+var top7 = $('#DataViz').offset().top-300;
+var top8 = $('#UA').offset().top-300;
+var top9 = $('#CincoDeMayo').offset().top-300;
+var top10 = $('#ATTDigitalHome').offset().top-300;
+var top11 = $('#KibokoCafe').offset().top-300;
 
 
-function ScrollHandler(pageId) {
-  var page = document.getElementById(pageId);
-  var pageStart = page.offsetTop;
-  var pageJump = false;
-  var viewStart;
-  var duration = 1000;
-  var scrolled = document.getElementById("scroll");
-  var n = document.getElementById("navBar");
+
+$(document).scroll(function() {
+  var scrollPos = $(document).scrollTop();
+  if (scrollPos >= top1 && scrollPos < top2) {
+
+     $('#navBar').removeClass( "nav2" ).addClass( "nav1" );
+
+  } else if (scrollPos >= top2 && scrollPos < top3) {
+
+     $('#navBar').removeClass( "nav3" ).addClass( "nav2" );
+
+  } else if (scrollPos >= top3 && scrollPos < top4) {
+
+     $('#navBar').removeClass( "nav4" ).addClass( "nav3" );
+
+  }
     
+  else if (scrollPos >= top4 && scrollPos < top5) {
+
+     $('#navBar').removeClass( "nav5" ).addClass( "nav4" );
+
+  }
     
+  else if (scrollPos >= top5 && scrollPos < top6) {
+
+     $('#navBar').removeClass( "nav6" ).addClass( "nav5" );
+
+  }
+    
+    else if (scrollPos >= top6 && scrollPos < top7) {
+
+     $('#navBar').removeClass( "nav7" ).addClass( "nav6" );
+
+  }
+    
+    else if (scrollPos >= top7 && scrollPos < top8) {
+
+     $('#navBar').removeClass( "nav8" ).addClass( "nav7" );
+
+  }
+    
+        else if (scrollPos >= top8 && scrollPos < top9) {
+
+     $('#navBar').removeClass( "nav9" ).addClass( "nav8" );
+
+  }
+    
+    else if (scrollPos >= top9 && scrollPos < top10) {
+
+     $('#navBar').removeClass( "nav10" ).addClass( "nav9" );
+
+  }
+    
+    else if (scrollPos >= top10 && scrollPos < top11) {
+
+     $('#navBar').removeClass( "nav11" ).addClass( "nav10" );
+
+  }
+    
+
+
     
     
     
   
-
-  function scrollToPage() {
-   //Change navBar color
-        if(pageId == "U_U"){
-        n.classList.remove("nav2");
-        n.classList.add("nav1");
-        
-    } else  if(pageId == "DashyDriver"){
-        n.classList.remove("nav3");
-        n.classList.add("nav2");
-        
-    } else  if(pageId == "SuperDuperPunch"){
-        n.classList.remove("nav4");
-        n.classList.add("nav3");
-        
-    }else  if(pageId == "LensStudio"){
-        n.classList.remove("nav5");
-        n.classList.add("nav4");
-        
-    }else  if(pageId == "ZooKazam"){
-        n.classList.remove("nav6");
-        n.classList.add("nav5");
-    }else  if(pageId == "Kill2Birds"){
-        n.classList.remove("nav7");
-        n.classList.add("nav6");
-    }
-      else  if(pageId == "Processing"){
-        n.classList.remove("nav8");
-        n.classList.add("nav7");
-    }
-        else  if(pageId == "DataViz"){
-        n.classList.remove("nav9");
-        n.classList.add("nav8");
-    }    else  if(pageId == "CincoDeMayo"){
-        n.classList.remove("nav10");
-        n.classList.add("nav9");
-    }   else  if(pageId == "ATTDigitalHome"){
-        n.classList.remove("nav11");
-        n.classList.add("nav10");
-    }   else  if(pageId == "KibokoCafe"){
-        n.classList.remove("nav12");
-        n.classList.add("nav11");
-    }   else  if(pageId == "KillPills"){
-        n.classList.add("nav12");
-    }
-      
-      
-      
-      
-    pageJump = true;
+    
    
-    // Calculate how far to scroll
-    var startLocation = viewStart;
-    var endLocation = pageStart;
-    var distance = endLocation - startLocation;
-
-    var runAnimation;
-
-    // Set the animation variables to 0/undefined.
-    var timeLapsed = 0;
-    var percentage, position;
-      
-      
-
-    var easing = function(progress) {
-      return progress < 0.5
-        ? 4 * progress * progress * progress
-        : (progress - 1) * (2 * progress - 2) * (2 * progress - 2) + 1; // acceleration until halfway, then deceleration
-        
-        
-    };
-
-    function stopAnimationIfRequired(pos) {
-      if (pos == endLocation) {
-        cancelAnimationFrame(runAnimation);
-        setTimeout(function() {
-          pageJump = false;
-        }, 500);
-      }
-    }
-
-      
-      
-      
-      
-    var animate = function() {
-      timeLapsed += 16;
-      percentage = timeLapsed / duration;
-      if (percentage > 1) {
-        percentage = 1;
-        position = endLocation;
-      } else {
-        position = startLocation + distance * easing(percentage);
-      }
-      scrolled.scrollTop = position;
-      runAnimation = requestAnimationFrame(animate);
-      stopAnimationIfRequired(position);
-      console.log("position=" + scrolled.scrollTop + "(" + percentage + ")");
-    };
-      
-      
-    // Loop the animation function
-    runAnimation = requestAnimationFrame(animate);
-  }
-    
-    
-    
-    
-    
-
-  window.addEventListener("wheel", function(event) {
-      
-
-    
-    viewStart = scrolled.scrollTop;
-    if (!pageJump) {
-      var pageHeight = page.scrollHeight;
-      var pageStopPortion = pageHeight / 2;
-      var viewHeight = window.innerHeight;
-       
-
-      var viewEnd = viewStart + viewHeight;
-      var pageStartPart = viewEnd - pageStart;
-      var pageEndPart = pageStart + pageHeight - viewStart;
-
-      var canJumpDown = pageStartPart >= 0;
-      var stopJumpDown = pageStartPart > pageStopPortion;
-
-      var canJumpUp = pageEndPart >= 0;
-      var stopJumpUp = pageEndPart > pageStopPortion;
-
-      var scrollingForward = event.deltaY > 0;
-      if (
-        (scrollingForward && canJumpDown && !stopJumpDown) ||
-        (!scrollingForward && canJumpUp && !stopJumpUp)
-      ) {
-        event.preventDefault();
-        scrollToPage();
-      }
-      false; //
-    } else {
-      event.preventDefault();
-    }
-  });
-    
-    
-}
-
-
- 
-new ScrollHandler("U_U");
-new ScrollHandler("DashyDriver");
-new ScrollHandler("SuperDuperPunch");
-new ScrollHandler("LensStudio");
-new ScrollHandler("ZooKazam");
-new ScrollHandler("Kill2Birds");
-new ScrollHandler("Processing");
-new ScrollHandler("DataViz");
-new ScrollHandler("CincoDeMayo");
-new ScrollHandler("ATTDigitalHome");
-new ScrollHandler("KibokoCafe");
-new ScrollHandler("KillPills");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+});

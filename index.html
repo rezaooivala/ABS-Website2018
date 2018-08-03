@@ -23,8 +23,6 @@
         <script src="js/jquery-3.3.1.min.js"></script>
         
 
-        
-        <script src="js/nav1.js"></script>
         <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
         
         
@@ -61,37 +59,43 @@
 
 
           <div  class="sidenav">
-              <button class="dropdown-btn"><span>INTERACTIVE DEV.<i class="fa fa-caret-down"></i></span>
-              </button>
+              <div class="dropdown-btn"><span>INTERACTIVE DEV.</span>
+              </div>
                       <div class="dropdown-container">
                         <a id="uu" href="#U_U" onclick="uu()">U-U</a>
                         <a id="dd" href="#DashyDriver" onclick="dd()">DASHY DRIVER</a>
                         <a id="sdp" href="#SuperDuperPunch" onclick="sdp()">SUPER DUPER PUNCH</a>
                       </div>
 
-              <button class="dropdown-btn"><span>AR EXPERIENCE<i class="fa fa-caret-down"></i></span>
-              </button>
+              <div class="dropdown-btn"><span>AR EXPERIENCE</span>
+              </div>
                       <div class="dropdown-container">
                         <a href="#LensStudio" onclick="snap()">LENS STUDIO</a>
                         <a href="#ZooKazam" onclick="ZooKazam()">ZOOKAZAM</a>
-                        <a href="#Kill2Birds" onclick="K2B()">KILL2BIRDS</a>
-                      </div>
+                       
 
-               <button class="dropdown-btn"><span>MOTION DESIGN<i class="fa fa-caret-down"></i></span>
-              </button>
+               <div class="dropdown-btn"><span>MOTION DESIGN</span>
+              </div>
                       <div class="dropdown-container">
-                        <a href="#Processing" onclick="Pr()">CREATIVE CODING</a>
-                        <a href="#DataViz" onclick="Dv()">TARGET DATA_VIZ</a>
+                        <a href="#Processing" onclick="Pr()">CC CHALLENGE</a>
+                        <a href="#DataViz" onclick="Dv()">TARGET DATA_DRIVEN</a>
+                        <a href="#UA" onclick="Ua()">UA DATA-VIZ</a>
                         <a href="#CincoDeMayo" onclick="cinco()">CINCO DE MAYO</a>
                         <a href="#ATTDigitalHome" onclick="att()">AT&T DIGITAL HOME</a>
                       </div>
 
 
               <div>
-                  <button class="dropdown-btn" onclick="window.location.href='#KibokoCafe'; vd();"><span>VISUAL DESIGN</span></button>
+                  <div class="dropdown-btn"><span>VISUAL DESIGN</span></div>
+                  <div class="dropdown-container">
+                      <a href="#KibokoCafe" onclick="Ua()">KIBOKO CAFE</a>
+                  </div>
               </div>
               
-              <button class="dropdown-btn" onclick="window.location.href='#KillPills'; cd();"><span>CHARACTER DESIGN</span></button>
+              <div class="dropdown-btn"><span>CHARACTER DESIGN</span></div>
+                          <div class="dropdown-container">
+                      <a href="#KillPills" onclick="Ua()">KILLPILLS</a>
+                  </div>
             </div>
             
             
@@ -107,7 +111,7 @@
                   </div>
 
                  <div class="down">
-                    <p class="emailP"><b>You want us designing for you???</b></p>
+                    <p class="emailP"><b>Let us design for you!!</b></p>
                     <button class="email" onclick="sendMail()"><b>EMAIL US!!! :)</b></button>
                     <ul class="social">
                         <li><a href="#" class="fa fa-instagram"></a></li>
@@ -125,13 +129,14 @@
         
          
         <div id="scroll">
+            
             <section id="U_U">
                   <div id="wrapper">
 
                       <div class="copy">
                         <h1>U_U</h1>
                         <p style="font-size: 20pt"><b>Coming Soon!!!</b></p>
-                          <p> on AppStore and GooglePlay</p>
+<!--                          <p> on AppStore and GooglePlay</p>-->
                       </div>
 
                     <article> 
@@ -153,23 +158,26 @@
             </section>
             <section id="DashyDriver">
                   <div class=wrapper>
+                      
+                       <div class="car">
+                          <img class="mySlides" src="img/dd/dd01.svg">
+                      </div> 
 
-                      <div class="copy">
+              <div class="copy">
                         <h1>DashyDriver!!! [cars]</h1>
-                        <p>How many travelers a day you would think you have in a crazy city as a taxi driver???!!! Check out a sneak peek of some of the cars and obstacles in DashyDriver.
+                        <p>Collect as many passengers as you can in this exciting taxi driver game, but beware of all of the obstacles along the way!!!   Take a sneak peek of some of the cars in DashyDriver.
                         </p>  
                           <p style="font-size: 20pt"><b>Soon!!! on AppStore and GooglePlay</b></p>
                           
-                  
-                          
-                      </div>
+                             <button  value="Open Window" class="learnMore " onclick="window.open('https://itunes.apple.com/nz/app/super-duper-punch/id1061143997?mt=8')">
+
+                            <h3>MORE CARS</h3>
+
+                   </button>
+              </div>
+                      
+         
                    
-                      <div class="car">
-                          <img class="mySlides" src="img/dd/dd01.svg">
-                          <img class="mySlides" src="img/dd/dd02.svg">
-                          <img class="mySlides" src="img/dd/dd03.svg">
-                          <img class="mySlides" src="img/dd/dd04.svg">
-                      </div>   
                   </div>
                 
                    
@@ -178,8 +186,10 @@
                   <div id="wrapper">
                       <div class="sdp"> 
                             <img src="img/sdp/sdp.svg">
-                     
                       </div> 
+                
+                   
+                     
                       
 
                       <div class="copy">
@@ -189,22 +199,41 @@
                           
                           
                         <ul>
-                            <li><button value="Open Window" class="learnMore " onclick="window.open('https://itunes.apple.com/nz/app/super-duper-punch/id1061143997?mt=8')">
+                            <li><button  value="Open Window" class="learnMore " onclick="window.open('https://itunes.apple.com/nz/app/super-duper-punch/id1061143997?mt=8')">
                               
-                                <h3>Download for iPhone</h3>
+                                <h3>DOWNLOAD</h3>
                               
                           </button></li>
                             <li> <button value="Open Window" class="learnMore " onclick="window.open('https://connect.unity.com/p/articles-back-to-the-commodore-64')" >
                               
-                                <h3>How we made SDP!!!</h3>
+                                <h3>CREATIVE</h3>
                               
-                          </button>
+                                </button></li>
+                              <li> <button value="Open Window" class="learnMore " onclick="window.open('http://superduperpunch.com/')" >
+                              
+                                <h3>WEBSITE</h3>
+                              
+                                  </button></li>  
+                            
+                                 <div class="appleBadges">
+
+                            <img src="img/sdp/15.svg">
+
+                            
+
+                    </div>
+                            
                         </ul> 
-                        <iframe src="//lightwidget.com/widgets/ca9a744b908655e8aa884790dec838f9.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:35%;border:0;overflow:hidden;"></iframe>
-                        
+                    
                       </div>
+                      
+                      
+                      
+                  
+                          
                     
                   </div>
+                
                 
                 
                
@@ -219,7 +248,7 @@
                       
                           <button value="Open Window" class="learnMore " onclick="window.open('https://lensstudio.snapchat.com/guides/')">
                               
-                                <h3>Learn More</h3>
+                                <h3>LEARN MORE</h3>
                               
                           </button>
                       
@@ -239,16 +268,24 @@
 
                       <div class="copy">
                           <h1>ZOOKAZAM MAGICAL ANIMALS</h1>
-                        <p>ZooKazam is an educational AR app that inspires kids to learn about animals. ZooKazam has more than <b>800K downloads</b> all around the world and this number is growing.</p>
-                            
-                        <p style="font-size: 8pt">When I show other teachers ZooKazam they immediately forget they are teachers and start acting the kids. They want to play, explore, have fun, get a picture with an amazing creature and they definitely want, ‘To have their turn.” That is the same response we want students to have!<br>ZooKazam uses AR technology to instantly engage students and create a sense of wonder. Teachers can leverage that engagement and create rich, stimulating lessons that promote deep learning.<br>
-                        <i><b>Brett Salakas - Founder / Google Certified Innovator</b></i></p>
+                        <p>ZooKazam is an educational AR app that inspires kids to learn about animals. ZooKazam has more than <b>800K downloads</b> all around the world. Download ZooKazam and enjoy experiencing the best AR app on AppStore and GooglePlay </p>
+                 
                           
                       
                            <ul>
                             <li><button value="Open Window" class="learnMore " onclick="window.open('https://itunes.apple.com/us/app/zookazam/id690393857?mt=8')">
                               
-                                <h3>Download ZooKazam</h3>
+                                <h3>DOWNLOAD</h3>
+                              
+                          </button></li>
+                                <li><button value="Open Window" class="learnMore " onclick="window.open('http://www.zookazam.com/')">
+                              
+                                <h3> &nbsp &nbsp WEBSITE &nbsp &nbsp </h3>
+                              
+                          </button></li>
+                                 <li><button value="Open Window" class="learnMore " onclick="window.open('https://www.instagram.com/zookazam/')">
+                              
+                                <h3> &nbsp &nbsp PHOTOS &nbsp &nbsp </h3>
                               
                           </button></li>
                             
@@ -256,8 +293,7 @@
                             
                         </ul> 
                           
-                        <iframe src="//lightwidget.com/widgets/cc489e3d80c655d9bf2aa32246ce3dcf.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:50%;border:0;overflow:hidden;"></iframe>
-                      
+
                         
                       </div>
                       <div> 
@@ -273,6 +309,7 @@
                   </div>
                
             </section>
+<!--
             <section id="Kill2Birds">
                   <div id="wrapper">
 
@@ -303,28 +340,25 @@
                   </div>
                
             </section>
+-->
             <section id="Processing">
                   <div id="wrapper">
 
                       <div class="copy">
-                          <h1>CREATIVE CODING</h1>
+                          <h1>CREATIVE CODING CHALLENGE</h1>
                         <p>Creative coding is a type of computer programming in which the goal is to create something expressive instead of something functional. It is used to create live visuals, as well as creating visual art and design, entertainment, art installations, projections and projection mapping, sound art, advertising, product prototypes, and much more. This background can be generated for every screen sizes with compuer programming.</p>
-                          <p style="font-size: 15pt; margin-bottom: 0; margin-top: 20px"></p>
-                          
-                      
-<!--
-                          <button value="Open Window" class="learnMore " onclick="window.open('img/processing.gif')">
+
+                          <button value="Open Window" class="learnMore " onclick="window.open('https://www.instagram.com/rezaooivala/')">
                               
-                                <h3>Learn More</h3>
+                                <h3>LEARN MORE</h3>
                               
                           </button>
--->
                           
                       
                         
                       </div>
                       
-                    <iframe src="//lightwidget.com/widgets/2e61693eb22859718c1b70e85e0dda06.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:35%;border:0;overflow:hidden;"></iframe>
+<!--                    <iframe src="//lightwidget.com/widgets/2e61693eb22859718c1b70e85e0dda06.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:74.5%;border:0;overflow:hidden;"></iframe>-->
                      
                       
                       
@@ -340,18 +374,53 @@
                       
 
                       <div class="copy">
-                        <h1>TARGET DATA-VIZ</h1>
+                        <h1>TARGET DATA-DRIVEN ANIMATION</h1>
                         <p>Data-driven animations are created using live data collected from various data sources that drive animations.
                         Technology constantly changes our day to day lives at a rapid pace. As artists, technology changes not only the medium in which we create art but also the way we think about art.</p>
                           
-                        <button class="learnMore " onclick="window.location.href='#DashyDriver'">
+                        <button value="Open Window" class="learnMore " onclick="window.open('http://blog.maxmedia.com/designing-for-real-time-data')">
+                            
+                            
 
-                            <h3>Learn More</h3>
+                            <h3>CASE STUDY</h3>
 
                        </button>
                           
                              <div> 
                         <img src="img/target.svg">
+                      </div> 
+                          
+                       
+                    
+                      </div>
+                      
+                      
+                      
+                         
+                      
+                    
+
+                  </div>
+               
+            </section>
+            <section id="UA">
+                  <div id="wrapper">
+                      
+
+                      <div class="copy">
+                        <h1>UNDER ARMOR DATA-VIZ</h1>
+                        <p>This multiscreen interactive consumer experience is a motion-activated prototype created to show off the HOVR Sonic connected shoe. In its passive state, the animation is data-driven displaying information collected from the UA running community such as miles run in a given area, common routes by locals, and accumulated calories burned by runners. As the shoe is lifted from its platform, a second animation is activated displaying information about the unique benefits of the HOVR Sonic connected shoes.</p>
+                          
+                        <button value="Open Window" class="learnMore " onclick="window.open('https://www.wearemaxlab.com/new-page-1/')">
+                            
+                            
+
+                            <h3>WATCH THE VIDEO</h3>
+
+                       </button>
+                          
+                             <div> 
+                        <img src="img/ua.gif">
                       </div> 
                           
                        
@@ -373,6 +442,14 @@
                       <div class="copy">
                           <h1>CINCO DE MAYO</h1>
                         <p>is an annual celebration held on May 5. The date is observed to commemorate the Mexican Army’s unlikely victory over the French Empire at the Battle of Puebla, on May 5, 1862. In the United States, Cinco de Mayo has taken on a significance beyond that in Mexico. This animation has been created to celebrate this event in Cinema 4D.</p>
+                          
+                          <button value="Open Window" class="learnMore " onclick="window.open('img/cinco.mp4')">
+                            
+                            
+
+                            <h3>WATCH THE VIDEO</h3>
+
+                       </button>
                       
                       
                         
@@ -396,8 +473,18 @@
                       <div class="copy">
                           <h1>AT&T DIGITAL HOME</h1>
                         <p>AT&T Digital Life is an all-digital, wireless home management system. With 24/7 professional monitoring, an easy app to help manage your home remotely, programs to simplify daily routines and text and email notifications. Although this animation seems has made in 3D environment, this is 2D and created by solid layers in Adobe AfterEffects.</p>
+                          
+                          <button value="Open Window" class="learnMore " onclick="window.open('img/cinco.mp4')">
+                            
+                            
+
+                            <h3>WATCH THE VIDEO</h3>
+
+                       </button>
                  
                       </div>
+                      
+                      
                     
                     
                       
@@ -461,29 +548,12 @@
  
         
 
-        
 
-        <script src="js/nav.js"></script>
+        <script src="js/nav1.js"></script>
         
         <script src="js/scrolling.js"></script>
         
-        <script>
-            var myIndex = 0;
-            carousel();
 
-            function carousel() {
-                var i;
-                var x = document.getElementsByClassName("mySlides");
-                for (i = 0; i < x.length; i++) {
-                   x[i].style.display = "none";  
-                }
-                myIndex++;
-                if (myIndex > x.length) {myIndex = 1}    
-                x[myIndex-1].style.display = "block";  
-                setTimeout(carousel, 2500);
-           
-            }
-        </script>
         
     
         

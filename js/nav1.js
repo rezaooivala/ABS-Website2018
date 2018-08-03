@@ -56,22 +56,23 @@ for(var i = 1; i <=12; i++){
  document.getElementById("navBar").classList.add("nav5");
 };
 
-function K2B(){
+
+function Pr(){
 for(var i = 1; i <=12; i++){
   document.getElementById("navBar").classList.remove("nav"+i);  
 }
  document.getElementById("navBar").classList.add("nav6");
 };
 
-function Pr(){
+
+function Dv(){
 for(var i = 1; i <=12; i++){
   document.getElementById("navBar").classList.remove("nav"+i);  
 }
  document.getElementById("navBar").classList.add("nav7");
 };
 
-
-function Dv(){
+function Ua(){
 for(var i = 1; i <=12; i++){
   document.getElementById("navBar").classList.remove("nav"+i);  
 }

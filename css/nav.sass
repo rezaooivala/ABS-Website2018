@@ -10,51 +10,54 @@
     top: 145px
     left: 38px
     background-color: transparent
+    span
+        font-weight: bold
+        //margin-left: -10px
     li
         list-style: none
     a 
         text-decoration-line: none
+        padding: 1px 0
   
     a:visited
         color: inherit
         
     a:hover
         color: $highlight
-        @include anim(0.5s)
+
+
         
     
-        
-a 
- font-size: 12px
+
 
     
 .nav1
     color: $lightblue
-    @include anim(2s)
+    @include anim(1s)
     .active
         color: black
-        transition: background-color 3s
     span
         color: black
-        @include anim(2s)
+        @include anim(1s)
     .st1
         stroke: $lightblue
-        @include anim(0.2s)
+        @include anim(1s)
     
     
     
 .nav2
     color: black
-    @include anim(2s)
+    @include anim(1s)
     .active
         color: $grey
         transition: background-color 3s
     span
         color: $grey
-        @include anim(2s)
+        @include anim(1s)
     .st1
         stroke: black 
-        @include anim(2s)
+        @include anim(1s)
+
  
     
 .nav3
@@ -97,35 +100,21 @@ a
         @include anim(2s)
             
 .nav6
-    color: $k2bd
+    color: yellow
     @include anim(2s)
     .active
         color: $sdpink
         transition: background-color 3s
     span
-        color: $k2bl
+        color: black
         @include anim(2s)
     .st1
-        stroke: $k2bd
+        stroke: yellow
         @include anim(2s)
             
             
 .nav7
-    color: #ff48ff
-    @include anim(2s)
-    .active
-        color: $sdpink
-        transition: background-color 3s
-    span
-        color: #4e34f1
-        @include anim(2s)
-    .st1
-        stroke: #ff48ff
-        @include anim(2s)
-    
-            
-.nav8
-    color: $k2bd
+    color: red
     @include anim(2s)
     .active
         color: $sdpink
@@ -134,7 +123,21 @@ a
         color: #F3F3F3
         @include anim(2s)
     .st1
-        stroke: $k2bd
+        stroke: red
+        @include anim(2s)
+    
+            
+.nav8
+    color: white
+    @include anim(2s)
+    .active
+        color: $sdpink
+        transition: background-color 3s
+    span
+        color: red
+        @include anim(2s)
+    .st1
+        stroke: white
         @include anim(2s)
             
 .nav9
@@ -205,8 +208,9 @@ a
 .sidenav
     position: fixed
     z-index: 1
-    top: 43%
-    left: 56px
+    top: 37%
+    left: 70px
+    font-size: 8pt
 
     
 
@@ -218,7 +222,7 @@ a
     cursor: hand
     outline: none
     background-color: currentColor
-    padding: 2px 0px 2px 12px    
+    padding: 2px 12px   
 
  
 
@@ -230,11 +234,11 @@ a
     font-weight: normal
     display: block
         
-.sidenav a:hover, .dropdown-btn:hover 
-     color: $highlight
-
-.sidenav a:active, .dropdown-btn:active
-     color: yellow
+//.sidenav a:hover, .dropdown-btn:hover 
+//     color: $highlight
+//
+//.sidenav a:active, .dropdown-btn:active
+//     color: yellow
  
  
 
@@ -257,7 +261,7 @@ a
 .emailP
     margin: 0
     position: fixed
-    top: 83%
+    top: 82.6%
     left: 57px
     font-size: 14pt
     
@@ -267,9 +271,10 @@ a
    padding: 5px 25px
    font-size: 15pt
    border: solid 
+   border-width: 5px
    border-radius: 230px
    position: fixed
-   top: 86.8%
+   top: 86%
    left: 50px
    
 
@@ -304,13 +309,11 @@ a
  
 .fa 
   padding: 3px 1px 3px 0
-  font-size: 30px
+  font-size: 100pt
   width: 25px
+  font-size: 20pt
 
-.fa-caret-down 
-  float: right
-  margin-left: 10px
-  font-size: 12px
+
  
 .fa-instagram 
   color: inherit

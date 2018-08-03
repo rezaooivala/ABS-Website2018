@@ -6,283 +6,281 @@
   left: 38px;
   background-color: transparent; }
   /* line 13, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+  #navBar span {
+    font-weight: bold; }
+  /* line 16, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
   #navBar li {
     list-style: none; }
-  /* line 15, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
-  #navBar a {
-    text-decoration-line: none; }
   /* line 18, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+  #navBar a {
+    text-decoration-line: none;
+    padding: 1px 0; }
+  /* line 22, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
   #navBar a:visited {
     color: inherit; }
-  /* line 21, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+  /* line 25, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
   #navBar a:hover {
-    color: #FF00E2;
-    transition-delay: 0.5s;
-    transition: 0.5s; }
+    color: #FF00E2; }
 
-/* line 27, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
-a {
-  font-size: 12px; }
-
-/* line 31, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+/* line 34, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
 .nav1 {
   color: #00EBFF;
-  transition-delay: 2s;
-  transition: 2s; }
-  /* line 34, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
-  .nav1 .active {
-    color: black;
-    transition: background-color 3s; }
+  transition-delay: 1s;
+  transition: 1s; }
   /* line 37, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+  .nav1 .active {
+    color: black; }
+  /* line 39, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
   .nav1 span {
     color: black;
-    transition-delay: 2s;
-    transition: 2s; }
-  /* line 40, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+    transition-delay: 1s;
+    transition: 1s; }
+  /* line 42, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
   .nav1 .st1 {
     stroke: #00EBFF;
-    transition-delay: 0.2s;
-    transition: 0.2s; }
+    transition-delay: 1s;
+    transition: 1s; }
 
-/* line 46, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+/* line 48, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
 .nav2 {
   color: black;
-  transition-delay: 2s;
-  transition: 2s; }
-  /* line 49, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+  transition-delay: 1s;
+  transition: 1s; }
+  /* line 51, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
   .nav2 .active {
     color: #E6E7E8;
     transition: background-color 3s; }
-  /* line 52, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+  /* line 54, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
   .nav2 span {
     color: #E6E7E8;
-    transition-delay: 2s;
-    transition: 2s; }
-  /* line 55, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+    transition-delay: 1s;
+    transition: 1s; }
+  /* line 57, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
   .nav2 .st1 {
     stroke: black;
-    transition-delay: 2s;
-    transition: 2s; }
+    transition-delay: 1s;
+    transition: 1s; }
 
-/* line 60, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+/* line 63, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
 .nav3 {
   color: #352C28;
   transition-delay: 2s;
   transition: 2s; }
-  /* line 63, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+  /* line 66, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
   .nav3 .active {
     color: #FFBACC;
     transition: background-color 3s; }
-  /* line 66, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+  /* line 69, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
   .nav3 span {
     color: #FFBACC;
     transition-delay: 2s;
     transition: 2s; }
-  /* line 69, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+  /* line 72, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
   .nav3 .st1 {
     stroke: #352C28;
     transition-delay: 2s;
     transition: 2s; }
 
-/* line 73, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+/* line 76, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
 .nav4 {
   color: #6E6F71;
   transition-delay: 2s;
   transition: 2s; }
-  /* line 76, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+  /* line 79, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
   .nav4 .active {
     color: #FFBACC;
     transition: background-color 3s; }
-  /* line 79, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+  /* line 82, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
   .nav4 span {
     color: #FFFB00;
     transition-delay: 2s;
     transition: 2s; }
-  /* line 82, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+  /* line 85, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
   .nav4 .st1 {
     stroke: #6E6F71;
     transition-delay: 2s;
     transition: 2s; }
 
-/* line 86, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+/* line 89, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
 .nav5 {
   color: #6E6F71;
   transition-delay: 2s;
   transition: 2s; }
-  /* line 89, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+  /* line 92, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
   .nav5 .active {
     color: #FFBACC;
     transition: background-color 3s; }
-  /* line 92, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+  /* line 95, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
   .nav5 span {
     color: white;
     transition-delay: 2s;
     transition: 2s; }
-  /* line 95, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+  /* line 98, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
   .nav5 .st1 {
     stroke: #6E6F71;
     transition-delay: 2s;
     transition: 2s; }
 
-/* line 99, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+/* line 102, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
 .nav6 {
-  color: #25333E;
+  color: yellow;
   transition-delay: 2s;
   transition: 2s; }
-  /* line 102, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+  /* line 105, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
   .nav6 .active {
     color: #FFBACC;
     transition: background-color 3s; }
-  /* line 105, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+  /* line 108, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
   .nav6 span {
-    color: #F3F1F0;
+    color: black;
     transition-delay: 2s;
     transition: 2s; }
-  /* line 108, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+  /* line 111, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
   .nav6 .st1 {
-    stroke: #25333E;
+    stroke: yellow;
     transition-delay: 2s;
     transition: 2s; }
 
-/* line 113, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+/* line 116, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
 .nav7 {
-  color: #ff48ff;
+  color: red;
   transition-delay: 2s;
   transition: 2s; }
-  /* line 116, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+  /* line 119, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
   .nav7 .active {
     color: #FFBACC;
     transition: background-color 3s; }
-  /* line 119, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
-  .nav7 span {
-    color: #4e34f1;
-    transition-delay: 2s;
-    transition: 2s; }
   /* line 122, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
-  .nav7 .st1 {
-    stroke: #ff48ff;
-    transition-delay: 2s;
-    transition: 2s; }
-
-/* line 127, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
-.nav8 {
-  color: #25333E;
-  transition-delay: 2s;
-  transition: 2s; }
-  /* line 130, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
-  .nav8 .active {
-    color: #FFBACC;
-    transition: background-color 3s; }
-  /* line 133, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
-  .nav8 span {
+  .nav7 span {
     color: #F3F3F3;
     transition-delay: 2s;
     transition: 2s; }
-  /* line 136, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
-  .nav8 .st1 {
-    stroke: #25333E;
+  /* line 125, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+  .nav7 .st1 {
+    stroke: red;
     transition-delay: 2s;
     transition: 2s; }
 
-/* line 140, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+/* line 130, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+.nav8 {
+  color: white;
+  transition-delay: 2s;
+  transition: 2s; }
+  /* line 133, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+  .nav8 .active {
+    color: #FFBACC;
+    transition: background-color 3s; }
+  /* line 136, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+  .nav8 span {
+    color: red;
+    transition-delay: 2s;
+    transition: 2s; }
+  /* line 139, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+  .nav8 .st1 {
+    stroke: white;
+    transition-delay: 2s;
+    transition: 2s; }
+
+/* line 143, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
 .nav9 {
   color: white;
   transition-delay: 2s;
   transition: 2s; }
-  /* line 143, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+  /* line 146, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
   .nav9 .active {
     color: #FFBACC;
     transition: background-color 3s; }
-  /* line 146, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+  /* line 149, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
   .nav9 span {
     color: purple;
     transition-delay: 2s;
     transition: 2s; }
-  /* line 149, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+  /* line 152, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
   .nav9 .st1 {
     stroke: white;
     transition-delay: 2s;
     transition: 2s; }
 
-/* line 154, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+/* line 157, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
 .nav10 {
   color: white;
   transition-delay: 2s;
   transition: 2s; }
-  /* line 157, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+  /* line 160, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
   .nav10 .active {
     color: #FFBACC;
     transition: background-color 3s; }
-  /* line 160, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+  /* line 163, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
   .nav10 span {
     color: #6AA5C9;
     transition-delay: 2s;
     transition: 2s; }
-  /* line 163, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+  /* line 166, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
   .nav10 .st1 {
     stroke: white;
     transition-delay: 2s;
     transition: 2s; }
 
-/* line 167, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+/* line 170, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
 .nav11 {
   color: #B6A277;
   transition-delay: 2s;
   transition: 2s; }
-  /* line 170, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+  /* line 173, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
   .nav11 .active {
     color: #FFBACC;
     transition: background-color 3s; }
-  /* line 173, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+  /* line 176, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
   .nav11 span {
     color: white;
     transition-delay: 2s;
     transition: 2s; }
-  /* line 176, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+  /* line 179, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
   .nav11 .st1 {
     stroke: #B6A277;
     transition-delay: 2s;
     transition: 2s; }
 
-/* line 181, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+/* line 184, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
 .nav12 {
   color: #6E6F71;
   transition-delay: 2s;
   transition: 2s; }
-  /* line 184, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+  /* line 187, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
   .nav12 .active {
     color: #FFBACC;
     transition: background-color 3s; }
-  /* line 187, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+  /* line 190, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
   .nav12 span {
     color: yellow;
     transition-delay: 2s;
     transition: 2s; }
-  /* line 190, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+  /* line 193, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
   .nav12 .st1 {
     stroke: #6E6F71;
     transition-delay: 2s;
     transition: 2s; }
 
-/* line 195, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+/* line 198, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
 .logo {
   width: 36%;
   font-size: 13pt;
   font-weight: 700;
   letter-spacing: 1px;
   color: inherit; }
-  /* line 201, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+  /* line 204, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
   .logo .st0 {
     fill: currentColor; }
 
-/* line 205, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+/* line 208, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
 .sidenav {
   position: fixed;
   z-index: 1;
-  top: 43%;
-  left: 56px; }
+  top: 37%;
+  left: 70px;
+  font-size: 8pt; }
 
-/* line 213, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+/* line 217, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
 .dropdown-btn {
   display: block;
   border: none;
@@ -291,55 +289,48 @@ a {
   cursor: hand;
   outline: none;
   background-color: currentColor;
-  padding: 2px 0px 2px 12px; }
+  padding: 2px 12px; }
 
-/* line 227, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+/* line 231, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
 .sidenav a {
   padding: 3px 0 0 14px;
   color: inherit;
   font-weight: normal;
   display: block; }
 
-/* line 233, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
-.sidenav a:hover, .dropdown-btn:hover {
-  color: #FF00E2; }
-
-/* line 236, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
-.sidenav a:active, .dropdown-btn:active {
-  color: yellow; }
-
-/* line 247, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+/* line 251, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
 .arrow {
   width: 2%;
   position: fixed;
   top: 92%;
   left: 49%; }
   @media screen and (max-width: 700px) {
-    /* line 247, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+    /* line 251, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
     .arrow {
       width: 4%;
       top: 94%; } }
 
-/* line 257, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+/* line 261, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
 .emailP {
   margin: 0;
   position: fixed;
-  top: 83%;
+  top: 82.6%;
   left: 57px;
   font-size: 14pt; }
 
-/* line 265, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+/* line 269, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
 .email {
   background-color: transparent;
   padding: 5px 25px;
   font-size: 15pt;
   border: solid;
+  border-width: 5px;
   border-radius: 230px;
   position: fixed;
-  top: 86.8%;
+  top: 86%;
   left: 50px; }
 
-/* line 279, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+/* line 284, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
 .footy {
   color: inherit;
   position: fixed;
@@ -349,15 +340,15 @@ a {
   right: 78px;
   margin-right: 20%; }
   @media screen and (max-width: 900px) {
-    /* line 279, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+    /* line 284, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
     .footy {
       font-size: 6pt; } }
   @media screen and (max-width: 700px) {
-    /* line 279, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+    /* line 284, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
     .footy {
       display: none; } }
 
-/* line 294, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+/* line 299, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
 .social {
   margin-top: 15px;
   margin-bottom: 0;
@@ -365,31 +356,26 @@ a {
   position: fixed;
   top: 85.4%;
   left: 200px; }
-  /* line 301, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+  /* line 306, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
   .social li {
     margin: 0 8px; }
 
-/* line 305, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+/* line 310, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
 .fa {
   padding: 3px 1px 3px 0;
-  font-size: 30px;
-  width: 25px; }
+  font-size: 100pt;
+  width: 25px;
+  font-size: 20pt; }
 
-/* line 310, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
-.fa-caret-down {
-  float: right;
-  margin-left: 10px;
-  font-size: 12px; }
-
-/* line 315, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+/* line 318, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
 .fa-instagram {
   color: inherit; }
 
-/* line 317, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+/* line 320, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
 .fa-linkedin {
   color: inherit; }
 
-/* line 319, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
+/* line 322, /Users/rezaalavi/sites/ABS-Website2018/css/nav.sass */
 .fa-dribbble {
   color: inherit; }
 

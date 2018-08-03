@@ -54,12 +54,11 @@ body {
   max-width: 1100px;
   margin: 0 auto; }
 
-/* line 60, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
-#scroll {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  overflow: auto; }
+/* line 59, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+.copy {
+  position: relative;
+  top: 140px;
+  left: 270px; }
 
 /* line 67, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
 .learnMore {
@@ -67,9 +66,10 @@ body {
   background-color: transparent;
   padding: 15px 35px;
   border: solid;
-  border-width: 3px; }
+  border-width: 7px;
+  border-radius: 50px; }
 
-/* line 76, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+/* line 75, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
 button:hover {
   color: #FF00E2;
   border-color: #FF00E2;
@@ -83,110 +83,117 @@ button:hover {
   background-color: black; }
   /* line 90, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
   #U_U .copy {
-    position: absolute;
-    top: 140px;
-    left: 300px;
     color: #00EBFF; }
-  /* line 95, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+  /* line 92, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
   #U_U p {
     margin: 0; }
-  /* line 98, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+  /* line 95, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
   #U_U .smallstars {
     position: absolute;
     top: -20px;
     left: 5%;
     width: 90%; }
-  /* line 104, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+  /* line 101, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
   #U_U .bigstars {
     position: absolute;
     top: 10%;
     left: 10%;
     width: 80%; }
-  /* line 110, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+  /* line 107, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
   #U_U .face {
     position: absolute;
     top: 30%;
     left: 42.3%;
     width: 15%; }
 
-/* line 118, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+/* line 115, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
 #DashyDriver {
   height: 100vh;
   background-size: cover;
   background-color: #E6E7E8;
   overflow: auto; }
-  /* line 123, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+  /* line 120, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
   #DashyDriver h1 {
     margin: 0; }
-  /* line 125, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+  /* line 122, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
   #DashyDriver p {
     margin: 0;
     margin-right: 50%; }
-  /* line 128, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+  /* line 125, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
   #DashyDriver .copy {
     position: absolute;
     top: 900px;
     left: 270px;
     color: black; }
-  /* line 134, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+  /* line 130, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
   #DashyDriver .car {
     position: relative;
-    top: 300px;
+    top: 310px;
     left: 100px; }
+  /* line 134, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+  #DashyDriver .learnMore {
+    margin-top: 15px;
+    margin-left: -10px; }
   @media screen and (max-width: 1000px) {
-    /* line 144, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+    /* line 143, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
     #DashyDriver img {
       width: 80%;
       top: 400px;
       left: 200px; } }
 
-/* line 150, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+/* line 149, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
 #SuperDuperPunch {
   height: 100vh;
   /*background: url("../img/sdp/background.gif"); */
   background: #FFBACC;
   background-size: cover;
-  overflow: auto; }
-  /* line 157, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+  overflow: hidden; }
+  /* line 155, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
   #SuperDuperPunch ul {
     padding: 0; }
-  /* line 160, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+  /* line 158, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+  #SuperDuperPunch button {
+    width: 22%; }
+  /* line 163, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
   #SuperDuperPunch .learnMore {
-    margin-top: 15px; }
-  /* line 162, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+    margin-top: 10px;
+    font-size: 10pt; }
+  /* line 166, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
   #SuperDuperPunch .copy {
     position: absolute;
     top: 1660px;
     left: 270px;
     color: #352C28; }
-  /* line 167, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+  /* line 171, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
   #SuperDuperPunch .sdp img {
     width: 70%;
     position: relative;
     margin-top: -140px;
-    margin-left: 500px; }
-  /* line 172, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
-  #SuperDuperPunch iframe {
-    margin-top: 10px; }
+    margin-left: 380px; }
+  /* line 176, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+  #SuperDuperPunch .appleBadges {
+    position: relative;
+    margin-top: -70px;
+    margin-left: 55%; }
+    /* line 180, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+    #SuperDuperPunch .appleBadges img {
+      width: 80%; }
 
-/* line 185, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+/* line 187, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
 #LensStudio {
   height: 100vh;
   background-size: cover;
   background-color: #FFFB00;
-  overflow: auto; }
-  /* line 190, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+  overflow: hidden; }
+  /* line 192, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
   #LensStudio .copy {
-    position: relative;
-    top: 140px;
-    left: 270px;
     color: #6E6F71; }
   /* line 195, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
   #LensStudio img {
     float: right;
-    width: 60%;
+    width: 55%;
     position: inherit;
-    margin-top: 0;
+    margin-top: 60px;
     margin-right: 3%; }
 
 /* line 204, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
@@ -197,165 +204,151 @@ button:hover {
   overflow: auto; }
   /* line 209, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
   #ZooKazam ul {
-    padding: 0; }
-  /* line 211, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+    padding: 0;
+    margin-top: 15px; }
+    /* line 212, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+    #ZooKazam ul button {
+      width: 20%;
+      margin-right: 20px; }
+  /* line 215, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
   #ZooKazam .copy {
-    position: relative;
-    top: 140px;
-    left: 270px;
     color: #6E6F71;
     margin-right: 20%; }
-  /* line 217, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+  /* line 219, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
   #ZooKazam img.zoo {
     float: right;
-    width: 25%;
+    width: 28%;
     position: inherit;
-    margin-top: -300px;
+    margin-top: -230px;
     margin-right: 10%; }
-  /* line 223, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+  /* line 225, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
   #ZooKazam img.awa {
     float: right;
     width: 25%;
     position: relative;
-    top: 55px;
-    left: 26%; }
-  /* line 229, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
-  #ZooKazam iframe {
-    margin-top: 15px;
-    margin-left: -5px;
-    padding: 0; }
+    top: 185px;
+    left: 28%; }
 
-/* line 235, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
-#Kill2Birds {
-  height: 100vh;
-  background-size: cover;
-  background-color: #F3F1F0;
-  overflow: auto; }
-  /* line 240, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
-  #Kill2Birds .copy {
-    position: relative;
-    top: 140px;
-    left: 270px;
-    color: #25333E; }
-  /* line 245, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
-  #Kill2Birds img {
-    float: right;
-    width: 40%;
-    position: inherit;
-    margin-top: 5%;
-    margin-right: 6%; }
-
-/* line 253, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+/* line 237, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
 #Processing {
   background: url(../img/processing.gif);
   background-size: cover;
   height: 100vh;
   overflow: auto; }
-  /* line 259, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+  /* line 243, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
   #Processing .copy {
-    position: relative;
-    top: 140px;
-    left: 270px;
-    color: #ff48ff; }
-  /* line 265, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+    margin-right: 45%;
+    color: yellow; }
+  /* line 248, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
   #Processing .lightwidget-widget {
     width: 75%;
     position: relative;
     top: 130px;
     left: 265px; }
-  /* line 270, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+  /* line 253, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
   #Processing iframe {
-    margin-top: 25px; }
-  /* line 272, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
-  #Processing .learnMore {
-    margin-top: 20px; }
+    margin-top: 30px; }
 
-/* line 280, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+/* line 259, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
 #DataViz {
   background-size: cover;
   background-color: #F3F3F3;
   height: 100vh;
-  overflow: auto; }
-  /* line 285, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+  overflow: hidden; }
+  /* line 264, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
   #DataViz .copy {
-    position: relative;
-    top: 140px;
-    left: 270px;
-    color: #25333E; }
-  /* line 290, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+    color: #25333E;
+    margin-right: 10%; }
+  /* line 268, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
   #DataViz img {
     float: right;
-    width: 100%;
+    width: 200%;
     position: inherit;
-    margin-top: -450px;
-    margin-right: 200px; }
+    margin-top: -700px;
+    margin-right: -270px; }
 
-/* line 303, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+/* line 277, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+#UA {
+  background: linear-gradient(-45deg, #44b8e5, #1d82da);
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden; }
+  /* line 282, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+  #UA .copy {
+    color: white; }
+  /* line 285, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+  #UA img {
+    float: right;
+    width: 46%;
+    position: inherit;
+    margin-top: -80px;
+    margin-right: 350px; }
+
+/* line 295, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
 #CincoDeMayo {
   background: url("../img/cinco.jpg") no-repeat;
   background-size: cover;
   height: 100vh;
   overflow: auto; }
-  /* line 308, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+  /* line 300, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
   #CincoDeMayo .copy {
-    position: relative;
-    top: 140px;
-    left: 270px;
+    margin-right: 30%;
     color: white; }
 
-/* line 315, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+/* line 306, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
 #ATTDigitalHome {
   background-color: #6AA5C9;
   height: 100vh;
   overflow: auto; }
-  /* line 319, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+  /* line 310, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
   #ATTDigitalHome img {
     float: right;
-    width: 57%;
+    width: 45%;
     position: relative;
-    top: 65px;
-    left: 190px; }
-  /* line 325, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+    top: 140px;
+    right: 50px; }
+  /* line 317, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
   #ATTDigitalHome .copy {
     position: relative;
     top: 140px;
     left: 270px;
-    color: white; }
+    color: white;
+    margin-right: 35%; }
 
-/* line 333, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+/* line 325, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
 #KibokoCafe {
   background-color: white;
   height: 100vh;
   overflow: auto; }
-  /* line 337, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+  /* line 329, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
   #KibokoCafe img {
     float: right;
     width: 30%;
     position: relative;
     top: -50px;
     right: 100px; }
-  /* line 343, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+  /* line 335, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
   #KibokoCafe .copy {
     position: relative;
     top: 140px;
     left: 270px;
     color: #B6A277; }
 
-/* line 351, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+/* line 343, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
 #KillPills {
   background-color: #FFF200;
   height: 100vh;
   overflow: auto; }
-  /* line 355, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+  /* line 347, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
   #KillPills .copy {
     position: relative;
     top: 140px;
     left: 270px;
     color: #6E6F71; }
-  /* line 360, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+  /* line 352, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
   #KillPills img {
     width: 75%; }
-  /* line 362, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+  /* line 354, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
   #KillPills .kill {
     display: flex;
     justify-content: flex-end;
@@ -365,7 +358,7 @@ button:hover {
     margin: -30px;
     position: inherit;
     margin-top: 3%; }
-  /* line 371, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
+  /* line 363, /Users/rezaalavi/sites/ABS-Website2018/css/styles.sass */
   #KillPills .flex-item {
     margin: 0 -50px; }
 
