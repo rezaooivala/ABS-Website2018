@@ -1,0 +1,149 @@
+/* line 4, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+body {
+  font-family: "Roboto", sans-serif;
+  color: grey;
+  background: #f2f2f2; }
+  /* line 7, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+  body li {
+    list-style: none; }
+  /* line 11, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+  body h3 {
+    font-size: 12pt; }
+  /* line 13, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+  body a {
+    text-decoration-line: none;
+    padding: 1px 0; }
+  /* line 17, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+  body a:visited {
+    color: inherit; }
+  /* line 20, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+  body a:hover {
+    color: #FF00E2; }
+
+/* line 28, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+.top {
+  display: flex;
+  margin: -20px auto -30px auto; }
+  /* line 33, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+  .top .featured {
+    margin: auto 0;
+    display: flex; }
+    /* line 37, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+    .top .featured h3 {
+      margin-right: 10px; }
+    /* line 40, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+    .top .featured h3 {
+      font-weight: lighter;
+      margin: 0;
+      margin-right: 10px; }
+  /* line 44, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+  .top .logo {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto; }
+    /* line 49, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+    .top .logo img {
+      width: 20%; }
+    /* line 51, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+    .top .logo h3 {
+      margin: auto 10px; }
+  /* line 55, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+  .top .contactN {
+    float: right;
+    margin: 45px 0 auto 0; }
+    /* line 58, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+    .top .contactN .emailP {
+      margin-left: 3px;
+      font-size: 9pt;
+      font-weight: lighter;
+      text-transform: uppercase; }
+    /* line 64, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+    .top .contactN .email {
+      color: inherit;
+      background-color: transparent;
+      font-size: 15pt;
+      border: solid;
+      border-width: 4px;
+      border-radius: 230px;
+      margin-top: -20px; }
+
+/* line 75, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+.three {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 10px; }
+
+/* line 81, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+.container {
+  margin: 5px auto 0 auto; }
+
+/* line 98, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+#About {
+  padding: 100px 0;
+  background: #00ffa2;
+  color: blue; }
+
+/* line 107, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+.contact {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  color: blue; }
+  /* line 112, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+  .contact .emailP {
+    margin-left: 25px;
+    font-size: 15pt;
+    font-weight: lighter;
+    text-transform: uppercase; }
+  /* line 118, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+  .contact .email {
+    color: inherit;
+    background-color: transparent;
+    font-size: 25pt;
+    border: solid;
+    border-width: 6px;
+    border-radius: 230px;
+    margin-top: -20px;
+    padding: 10px 30px; }
+
+/* line 130, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+.bot {
+  padding: 50px 0;
+  width: 100%; }
+
+/* line 135, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+.social {
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 50px);
+  grid-gap: 5px;
+  justify-content: center;
+  justify-items: center;
+  margin: 60px auto 0 auto;
+  font-size: 25pt;
+  color: blue; }
+
+/* line 148, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+li .email {
+  color: inherit;
+  padding: 20px 100px;
+  width: 30%;
+  background-color: transparent;
+  border: solid;
+  border-width: 5px;
+  border-radius: 230px; }
+
+/* line 156, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+li h3 {
+  margin: 0;
+  font-size: 15pt; }
+
+/* line 159, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+li {
+  margin: 20px 0; }
+
+/* line 163, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+.cont .if {
+  margin: 12px auto 50px auto; }
+
+/*# sourceMappingURL=indexSass.css.map */
