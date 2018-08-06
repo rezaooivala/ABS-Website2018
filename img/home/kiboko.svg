@@ -12,6 +12,10 @@
 	.st6{fill:#B6A276;}
 	.st7{fill:#FFFFFF;}
 	.st8{fill:#D0ECF7;}
+	.st9{fill:#6D6D6D;}
+	.st10{fill:#E6E7E8;}
+	.st11{font-family:'Almaq-Refined';}
+	.st12{font-size:17.2704px;}
 </style>
 <g id="Layer_1">
 	<rect id="Rectangle_104" class="st0" width="1343" height="345.5"/>
@@ -1840,6 +1844,153 @@
 				<path class="st6" d="M719.4,209c1.9,0,3.5,1.6,3.5,3.5h-7C715.9,210.5,717.4,209,719.4,209 M719.4,208.1c-2.4,0-4.3,2-4.3,4.3
 					v0.8h0.8h7h0.8v-0.8C723.7,210.1,721.8,208.1,719.4,208.1L719.4,208.1z"/>
 			</g>
+		</g>
+	</g>
+	<g>
+		<path class="st9" d="M1316.1,298.1h-68.9c-0.5,0-0.9,0.4-0.9,0.9l0,0c0,0.5,0.4,0.9,0.9,0.9h68.9c0.5,0,0.9-0.4,0.9-0.9l0,0
+			C1317,298.5,1316.6,298.1,1316.1,298.1z"/>
+		<g>
+			<polygon class="st9" points="1270.5,263.6 1294.1,287.1 1305.1,276.1 1292.6,263.6 			"/>
+			<polygon class="st9" points="1295.8,288.9 1297.4,290.4 1308.4,279.4 1307,277.9 			"/>
+			<polygon class="st9" points="1256.4,277.6 1254.9,279.2 1265.9,290.3 1267.4,288.9 			"/>
+			<polygon class="st9" points="1292.5,263.6 1269,287.1 1257.9,276.1 1270.5,263.6 			"/>
+		</g>
+		<g>
+			<g>
+				<g>
+					<circle class="st9" cx="1281.6" cy="219.4" r="2.2"/>
+				</g>
+				<g>
+					<circle class="st9" cx="1277.3" cy="219.7" r="2.2"/>
+				</g>
+				<g>
+					<circle class="st9" cx="1273.2" cy="220.7" r="2.2"/>
+				</g>
+				<g>
+					<circle class="st9" cx="1269.3" cy="222.5" r="2.2"/>
+				</g>
+				<g>
+					<circle class="st9" cx="1265.8" cy="224.7" r="2.2"/>
+				</g>
+				<g>
+					<circle class="st9" cx="1262.7" cy="227.6" r="2.2"/>
+				</g>
+				<g>
+					<circle class="st9" cx="1260" cy="230.9" r="2.2"/>
+				</g>
+				<g>
+					<circle class="st9" cx="1258" cy="234.6" r="2.2"/>
+				</g>
+				<g>
+					<circle class="st9" cx="1256.6" cy="238.6" r="2.2"/>
+				</g>
+				<g>
+					<circle class="st9" cx="1255.9" cy="242.8" r="2.2"/>
+				</g>
+				<g>
+					<circle class="st9" cx="1255.8" cy="247.1" r="2.2"/>
+				</g>
+				<g>
+					<circle class="st9" cx="1256.5" cy="251.2" r="2.2"/>
+				</g>
+				<g>
+					<circle class="st9" cx="1257.8" cy="255.3" r="2.2"/>
+				</g>
+				<g>
+					<circle class="st9" cx="1259.8" cy="259" r="2.2"/>
+				</g>
+				<g>
+					<g>
+						<circle class="st9" cx="1262.3" cy="262.4" r="2.2"/>
+					</g>
+					<g>
+						<circle class="st9" cx="1265.4" cy="265.3" r="2.2"/>
+					</g>
+					<g>
+						<circle class="st9" cx="1268.9" cy="267.7" r="2.2"/>
+					</g>
+					<g>
+						<circle class="st9" cx="1272.8" cy="269.4" r="2.2"/>
+					</g>
+					<g>
+						<circle class="st9" cx="1276.8" cy="270.6" r="2.2"/>
+					</g>
+				</g>
+			</g>
+			<g>
+				<g>
+					<circle class="st9" cx="1281.6" cy="219.4" r="2.2"/>
+				</g>
+				<g>
+					<circle class="st9" cx="1285.9" cy="219.7" r="2.2"/>
+				</g>
+				<g>
+					<circle class="st9" cx="1290" cy="220.7" r="2.2"/>
+				</g>
+				<g>
+					<circle class="st9" cx="1293.8" cy="222.5" r="2.2"/>
+				</g>
+				<g>
+					<circle class="st9" cx="1297.4" cy="224.7" r="2.2"/>
+				</g>
+				<g>
+					<circle class="st9" cx="1300.5" cy="227.6" r="2.2"/>
+				</g>
+				<g>
+					<circle class="st9" cx="1303.1" cy="230.9" r="2.2"/>
+				</g>
+				<g>
+					<circle class="st9" cx="1305.2" cy="234.6" r="2.2"/>
+				</g>
+				<g>
+					<circle class="st9" cx="1306.6" cy="238.6" r="2.2"/>
+				</g>
+				<g>
+					<circle class="st9" cx="1307.3" cy="242.8" r="2.2"/>
+				</g>
+				<g>
+					<circle class="st9" cx="1307.4" cy="247.1" r="2.2"/>
+				</g>
+				<g>
+					<circle class="st9" cx="1306.7" cy="251.2" r="2.2"/>
+				</g>
+				<g>
+					<circle class="st9" cx="1305.4" cy="255.3" r="2.2"/>
+				</g>
+				<g>
+					<circle class="st9" cx="1303.4" cy="259" r="2.2"/>
+				</g>
+				<g>
+					<circle class="st9" cx="1300.9" cy="262.4" r="2.2"/>
+				</g>
+				<g>
+					<circle class="st9" cx="1297.8" cy="265.3" r="2.2"/>
+				</g>
+				<g>
+					<circle class="st9" cx="1294.3" cy="267.7" r="2.2"/>
+				</g>
+				<g>
+					<circle class="st9" cx="1290.4" cy="269.4" r="2.2"/>
+				</g>
+				<g>
+					<circle class="st9" cx="1286.4" cy="270.6" r="2.2"/>
+				</g>
+				<g>
+					<circle class="st9" cx="1286.4" cy="270.6" r="2.2"/>
+				</g>
+			</g>
+		</g>
+		<circle class="st10" cx="1281.6" cy="245.2" r="24.7"/>
+		<circle class="st9" cx="1281.6" cy="245.2" r="17.9"/>
+		<g>
+			<path class="st9" d="M1281.6,221.6c6.3,0,12.2,2.5,16.7,6.9c4.5,4.5,6.9,10.4,6.9,16.7c0,6.3-2.5,12.2-6.9,16.7
+				c-4.5,4.5-10.4,6.9-16.7,6.9c-6.3,0-12.2-2.5-16.7-6.9c-4.5-4.5-6.9-10.4-6.9-16.7c0-6.3,2.5-12.2,6.9-16.7
+				C1269.3,224,1275.2,221.6,1281.6,221.6 M1281.6,219.4c-14.3,0-25.8,11.6-25.8,25.8c0,14.3,11.6,25.8,25.8,25.8
+				c14.3,0,25.8-11.6,25.8-25.8C1307.4,230.9,1295.8,219.4,1281.6,219.4L1281.6,219.4z"/>
+		</g>
+		<text transform="matrix(1 0 0 1 1246.459 316.1182)" class="st9 st11 st12">FEATURED</text>
+		<g>
+			<path class="st10" d="M1273.9,231.3h16.1v5.3h-9.3v6.1h8.5v5.4h-8.5v10.9h-6.7V231.3z"/>
 		</g>
 	</g>
 </g>
