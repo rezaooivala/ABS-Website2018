@@ -4,35 +4,44 @@
 		<meta charset="UTF-8">
 		<title>U_U</title>
         
-        <link rel="stylesheet" type="text/css" href="css/_reset.css">
-        <link rel="stylesheet" type="text/css" href="css/indexSass.css">
+        <link rel="stylesheet" type="text/css" href="../css/_reset.css">
+        <link rel="stylesheet" type="text/css" href="../css/indexSass.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/hover.css">
+      
         
         
 	</head>
-	<body style="background: #E6E7E8; color: white; background: black">
+	<body style="color: white; background: url(../img/uu/uu01.svg)">
         
         
-         <nav class="wrapper">
+        <nav class="wrapper" id="nav">
             
-            <div class="top" >
+            <div class="top">
+<!--
                 <div class="featured">
-                <h3>ALL</h3>
-                <h3>FEATURED</h3>
-                <h3>US</h3>
+                <a href="../index.html"><h3>ALL</h3></a>
+                <a href="featured.html"><h3>FEATURED</h3></a>
+                <a href="#About"><h3>US</h3></a>
                 </div>
-                
-                <div class="logo" >
-                    <h3>REZA ALAVI</h3>
-                    <img src="img/home/abclogo.svg">
-                    <h3>AMIR ALAVI</h3>
+-->
+               <a href="../index.html" style="margin-right: auto; margin-top: -10px"> 
+                <div class="logo">
+                    
+                    <img src="../img/home/abclogo.svg">
+                        
+                    <div style="padding: 0; margin-top: 55px">
+                        <h3>REZA ALAVI</h3>
+                        <h3>AMIR ALAVI</h3>
+                    </div>
                 </div>
+                </a>
                 
-                <div class="contactN">
+                <div class="contactN" >
+                    <div>
                     <p class="emailP">Let us design for you!!</p>
-                        <button class="email" onclick="sendMail()"><b>EMAIL US!!! :)</b></button>
+                        <button class="email" style="cursor: pointer" onclick="sendMail()"><b>EMAIL US!!! :)</b></button>
+                        </div>
                      
                 </div>
             </div>
@@ -40,8 +49,9 @@
         
         </nav>
         
-        <div class="cont wrapper" >
-            <img style="margin: 0 auto" src="img/uu.svg">
+        <div class="uu cont wrapper">
+            <img src="../img/uu/uu.svg">
+
     
             
         
@@ -58,24 +68,24 @@
             
             
             <div class="wrapper" style="text-align: center; margin: 30px auto 50px auto" >
-                <h5>BACK TO TOP</h5>
-             <i class="fa fa-angle-up" style="font-size: 30pt; margin-top: -60px"></i>
+                <a href="#nav"><h5>BACK TO TOP</h5>
+             <i class="fa fa-angle-up" style="font-size: 30pt; margin-top: -60px"></i></a>
             </div>
             
     <div class="bot" style="background: #00ffa2">
              <div class="contact" >
                   <div>
                     <p class="emailP">Let us design for you!!</p>
-                        <button class="email" onclick="sendMail()"><b>EMAIL US!!! :)</b></button>
+                        <button class="email" style="cursor: pointer" onclick="sendMail()"><b>EMAIL US!!! :)</b></button>
                       </div>
             </div>
             
             
             
             <ul class="social wrapper" >
-                        <li><a href="#" class="fa fa-instagram"></a></li>
-                        <li><a href="#" class="fa fa-linkedin"></a></li>
-                        <li><a href="#" class="fa fa-dribbble "></a></li>
+                        <li><a href="https://www.instagram.com/rezaooivala/" class="fa fa-instagram"></a></li>
+                        <li><a href="https://www.linkedin.com/in/reza-alavi-7b5b8a28/" class="fa fa-linkedin"></a></li>
+                        <li><a href="https://dribbble.com/rezaooivala" class="fa fa-dribbble "></a></li>
             </ul>
 
                     <p class="footy wrapper" style="text-align: center; font-size: 8pt; color: blue">Alavi Bros Studio. Reza Alavi & Amir Alavi Since 2010 - All rights reserved 2018</p>
@@ -83,8 +93,6 @@
             
             
         
-        
         </footer>
-
 	</body>
 </html>

@@ -4,35 +4,44 @@
 		<meta charset="UTF-8">
 		<title>ZOOKAZAM</title>
         
-        <link rel="stylesheet" type="text/css" href="css/_reset.css">
-        <link rel="stylesheet" type="text/css" href="css/indexSass.css">
+        <link rel="stylesheet" type="text/css" href="../css/_reset.css">
+        <link rel="stylesheet" type="text/css" href="../css/indexSass.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/hover.css">
+
         
         
 	</head>
 	<body >
         
         
-         <nav class="wrapper">
+          <nav class="wrapper" id="nav">
             
             <div class="top">
+<!--
                 <div class="featured">
-                <h3>ALL</h3>
-                <h3>FEATURED</h3>
-                <h3>US</h3>
+                <a href="../index.html"><h3>ALL</h3></a>
+                <a href="featured.html"><h3>FEATURED</h3></a>
+                <a href="#About"><h3>US</h3></a>
                 </div>
-                
+-->
+               <a href="../index.html" style="margin-right: auto; margin-top: -10px"> 
                 <div class="logo">
-                    <h3>REZA ALAVI</h3>
-                    <img src="img/home/abclogo.svg">
-                    <h3>AMIR ALAVI</h3>
+                    
+                    <img src="../img/home/abclogo.svg">
+                        
+                    <div style="padding: 0; margin-top: 55px">
+                        <h3>REZA ALAVI</h3>
+                        <h3>AMIR ALAVI</h3>
+                    </div>
                 </div>
+                </a>
                 
-                <div class="contactN">
+                <div class="contactN" >
+                    <div>
                     <p class="emailP">Let us design for you!!</p>
-                        <button class="email" onclick="sendMail()"><b>EMAIL US!!! :)</b></button>
+                        <button class="email" style="cursor: pointer" onclick="sendMail()"><b>EMAIL US!!! :)</b></button>
+                        </div>
                      
                 </div>
             </div>
@@ -47,7 +56,7 @@
         </div>
         <div class="copy wrapper" style="text-align: center; margin: 60px auto 30px auto">
               <h1>ZOOKAZAM AUGMENTED REALITY EDUCATIONAL APP</h1>
-                        <p style="margin-bottom: 80px">ZooKazam is an educational AR app that inspires kids to learn about animals. ZooKazam has more than <b>800K downloads</b> all around the world. Download ZooKazam and enjoy experiencing the best AR app on AppStore and GooglePlay.
+                        <p style="margin-bottom: 80px">ZooKazam is an educational AR app that inspires children to learn about animals. ZooKazam has more than <b>800K downloads</b> all around the world. Download ZooKazam and experience the best AR app on AppStore and GooglePlay.
                         </p> 
             
            <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/71d599dbbae5509daac3ab619d10f5d3.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
@@ -61,8 +70,8 @@ ZooKazam uses AR technology to instantly engage students and create a sense of w
                         </p> 
             
             
-            <img src="img/zookazam/zoo01.svg">
-            <img style="margin-top: 40px" src="img/zookazam/zoo02.svg">
+            <img src="../img/zookazam/zoo01.svg">
+            <img style="margin-top: 40px" src="../img/zookazam/zoo02.svg">
             
             
              <h1 style="margin-top: 80px; text-align: left">Great for your Classroom!! </h1>
@@ -70,29 +79,29 @@ ZooKazam uses AR technology to instantly engage students and create a sense of w
 
                         </p> 
             
-            <img src="img/zookazam/zoo03.svg">
-            <img src="img/zookazam/zoo04.svg">
+            <img src="../img/zookazam/zoo03.svg">
+            <img src="../img/zookazam/zoo04.svg">
             
              <ul>
-                            <li><button style="width: 40%" class="email"  value="Open Window" onclick="window.open('https://itunes.apple.com/us/app/zookazam/id690393857?mt=8')">
+                            <li><button class="email"  value="Open Window" onclick="window.open('https://itunes.apple.com/us/app/zookazam/id690393857?mt=8')">
                               
                                 <h3>DOWNLOAD</h3>
                               
                           </button></li>
-                            <li> <button style="width: 40%" value="Open Window" class="email " onclick="window.open('http://www.zookazam.com/')" >
+                            <li> <button value="Open Window" class="email " onclick="window.open('http://www.zookazam.com/')" >
                               
-                                <h3>WEBSITE</h3>
+                                <h3>&nbsp;&nbsp; WEBSITE &nbsp;&nbsp;</h3>
                               
                                 </button></li>
-                              <li> <button style="width: 40%" value="Open Window" class="email" onclick="window.open('https://www.virtualiteach.com/single-post/2017/08/01/Five-reasons-I-love-the-ZooKazam-app')" >
+                              <li> <button value="Open Window" class="email" onclick="window.open('https://www.virtualiteach.com/single-post/2017/08/01/Five-reasons-I-love-the-ZooKazam-app')" >
                               
-                                <h3>WHY ZOOKAZAM</h3>
+                                <h3>WHY LOVE?</h3>
                               
                                   </button></li>  
                             
                                  <div class="appleBadges">
 
-                            <img style="width: 100%; margin-top: 50px" src="img/zookazam/award.svg">
+                            <img class="zBadges" src="../img/zookazam/award.svg">
 
                             
 
@@ -105,29 +114,29 @@ ZooKazam uses AR technology to instantly engage students and create a sense of w
                           
         
         </div>
-        <footer style="margin: 50px 0 0 0">
+         <footer style="margin: 50px 0 0 0">
             
             
             
             <div class="wrapper" style="text-align: center; margin: 30px auto 50px auto" >
-                <h5>BACK TO TOP</h5>
-             <i class="fa fa-angle-up" style="font-size: 30pt; margin-top: -60px"></i>
+                <a href="#nav"><h5>BACK TO TOP</h5>
+             <i class="fa fa-angle-up" style="font-size: 30pt; margin-top: -60px"></i></a>
             </div>
             
     <div class="bot" style="background: #00ffa2">
              <div class="contact" >
                   <div>
                     <p class="emailP">Let us design for you!!</p>
-                        <button class="email" onclick="sendMail()"><b>EMAIL US!!! :)</b></button>
+                        <button class="email" style="cursor: pointer" onclick="sendMail()"><b>EMAIL US!!! :)</b></button>
                       </div>
             </div>
             
             
             
             <ul class="social wrapper" >
-                        <li><a href="#" class="fa fa-instagram"></a></li>
-                        <li><a href="#" class="fa fa-linkedin"></a></li>
-                        <li><a href="#" class="fa fa-dribbble "></a></li>
+                        <li><a href="https://www.instagram.com/rezaooivala/" class="fa fa-instagram"></a></li>
+                        <li><a href="https://www.linkedin.com/in/reza-alavi-7b5b8a28/" class="fa fa-linkedin"></a></li>
+                        <li><a href="https://dribbble.com/rezaooivala" class="fa fa-dribbble "></a></li>
             </ul>
 
                     <p class="footy wrapper" style="text-align: center; font-size: 8pt; color: blue">Alavi Bros Studio. Reza Alavi & Amir Alavi Since 2010 - All rights reserved 2018</p>
@@ -135,8 +144,6 @@ ZooKazam uses AR technology to instantly engage students and create a sense of w
             
             
         
-        
         </footer>
-
 	</body>
 </html>
