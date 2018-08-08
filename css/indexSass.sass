@@ -32,6 +32,9 @@ body
 .top
     display: flex
     margin: -20px auto -30px auto
+    @media screen and (max-width: 600px)
+                margin-bottom: 10px
+        
     
     
     .logo
@@ -42,7 +45,9 @@ body
         img
             width: 20%
             @media screen and (max-width: 600px)
-                width: 40%
+                width: 60%
+                margin-top: 30PX
+                
         
             
             
@@ -87,6 +92,7 @@ body
            border-width: 4px
            border-radius: 230px
            margin-top: -20px
+           outline: none
            @media screen and (max-width: 600px)
                 margin-top: 10px
            @media screen and (max-width: 476px)
@@ -187,9 +193,11 @@ li .email
        border: solid 
        border-width: 5px
        border-radius: 230px
+       outline: none
 .email:hover
       cursor: pointer
       color: $highlight
+      outline: none
         
 li h3
        margin: 0

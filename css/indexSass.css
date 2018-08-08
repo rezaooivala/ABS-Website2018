@@ -24,43 +24,48 @@ body {
 .top {
   display: flex;
   margin: -20px auto -30px auto; }
-  /* line 37, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+  @media screen and (max-width: 600px) {
+    /* line 32, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+    .top {
+      margin-bottom: 10px; } }
+  /* line 40, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
   .top .logo {
     display: flex;
     justify-content: right;
     margin-right: auto; }
-    /* line 42, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+    /* line 45, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
     .top .logo img {
       width: 20%; }
       @media screen and (max-width: 600px) {
-        /* line 42, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+        /* line 45, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
         .top .logo img {
-          width: 40%; } }
-    /* line 49, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+          width: 60%;
+          margin-top: 30PX; } }
+    /* line 54, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
     .top .logo h3 {
       display: block;
       margin: auto 10px; }
       @media screen and (max-width: 600px) {
-        /* line 49, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+        /* line 54, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
         .top .logo h3 {
           color: red;
           display: none; } }
-  /* line 66, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+  /* line 71, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
   .top .contactN {
     float: left;
     margin: 40px 0 auto 0;
     color: inherit; }
-    /* line 71, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+    /* line 76, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
     .top .contactN .emailP {
       margin-left: 3px;
       font-size: 9pt;
       font-weight: lighter;
       text-transform: uppercase; }
       @media screen and (max-width: 600px) {
-        /* line 71, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+        /* line 76, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
         .top .contactN .emailP {
           display: none; } }
-    /* line 82, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+    /* line 87, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
     .top .contactN .email {
       color: inherit;
       background-color: transparent;
@@ -68,48 +73,49 @@ body {
       border: solid;
       border-width: 4px;
       border-radius: 230px;
-      margin-top: -20px; }
+      margin-top: -20px;
+      outline: none; }
       @media screen and (max-width: 600px) {
-        /* line 82, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+        /* line 87, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
         .top .contactN .email {
           margin-top: 10px; } }
       @media screen and (max-width: 476px) {
-        /* line 82, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+        /* line 87, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
         .top .contactN .email {
           margin-top: 0; } }
-    /* line 97, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+    /* line 103, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
     .top .contactN :hover {
       color: #FF00E2; }
 
-/* line 112, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+/* line 118, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
 .three {
   display: grid;
   grid-template-columns: repeat(3, auto);
   grid-gap: 10px; }
 
-/* line 118, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+/* line 124, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
 .container {
   margin: 5px auto 0 auto; }
 
-/* line 131, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+/* line 137, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
 #About {
   padding: 100px 0;
   background: #00ffa2;
   color: blue; }
 
-/* line 140, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+/* line 146, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
 .contact {
   margin: 0 auto;
   display: flex;
   justify-content: center;
   color: blue; }
-  /* line 145, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+  /* line 151, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
   .contact .emailP {
     margin-left: 25px;
     font-size: 15pt;
     font-weight: lighter;
     text-transform: uppercase; }
-  /* line 151, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+  /* line 157, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
   .contact .email {
     color: inherit;
     background-color: transparent;
@@ -119,16 +125,16 @@ body {
     border-radius: 230px;
     margin-top: -20px;
     padding: 10px 30px; }
-  /* line 160, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+  /* line 166, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
   .contact :hover {
     color: #FF00E2; }
 
-/* line 165, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+/* line 171, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
 .bot {
   padding: 50px 0;
   width: 100%; }
 
-/* line 170, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+/* line 176, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
 .social {
   padding: 0;
   display: grid;
@@ -140,168 +146,170 @@ body {
   font-size: 25pt;
   color: blue; }
 
-/* line 183, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+/* line 189, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
 li .email {
   color: inherit;
   padding: 20px 100px;
   background-color: transparent;
   border: solid;
   border-width: 5px;
-  border-radius: 230px; }
+  border-radius: 230px;
+  outline: none; }
 
-/* line 190, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+/* line 197, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
 .email:hover {
   cursor: pointer;
-  color: #FF00E2; }
+  color: #FF00E2;
+  outline: none; }
 
-/* line 194, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+/* line 202, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
 li h3 {
   margin: 0;
   font-size: 15pt; }
 
-/* line 197, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+/* line 205, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
 li {
   margin: 20px 0; }
 
-/* line 200, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+/* line 208, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
 .appleBadges img {
   width: 30%; }
   @media screen and (max-width: 600px) {
-    /* line 200, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+    /* line 208, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
     .appleBadges img {
       width: 70%; } }
 
-/* line 206, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+/* line 214, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
 .cont .if {
   margin: 12px auto 50px auto; }
 
-/* line 209, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+/* line 217, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
 .uu img {
   display: flex;
   float: center;
   margin: 0 auto;
   width: 40%; }
 
-/* line 216, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+/* line 224, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
 .sdp img {
   margin: 80px auto; }
   @media screen and (max-width: 600px) {
-    /* line 216, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+    /* line 224, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
     .sdp img {
       margin: 20px auto; } }
 
-/* line 223, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+/* line 231, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
 .k2b {
   display: grid;
   grid-template-columns: repeat(2, auto);
   grid-gap: 20px; }
   @media screen and (max-width: 600px) {
-    /* line 223, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+    /* line 231, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
     .k2b {
       grid-template-columns: repeat(1, auto);
       grid-gap: 20px; } }
 
-/* line 231, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+/* line 239, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
 .cinco {
   display: grid;
   margin-top: 5px;
   grid-template-columns: repeat(2, auto);
   grid-gap: 20px; }
   @media screen and (max-width: 600px) {
-    /* line 231, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+    /* line 239, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
     .cinco {
       grid-template-columns: repeat(1, auto);
       margin-top: 11px; } }
 
-/* line 241, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+/* line 249, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
 .zBadges img {
   width: 200%; }
   @media screen and (max-width: 600px) {
-    /* line 241, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+    /* line 249, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
     .zBadges img {
       width: 70%; } }
 
-/* line 246, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+/* line 254, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
 #ua {
   display: grid;
   grid-template-columns: repeat(2, auto);
   grid-gap: 30px;
   margin-top: -30px; }
   @media screen and (max-width: 600px) {
-    /* line 246, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+    /* line 254, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
     #ua {
       grid-template-columns: repeat(1, auto); } }
 
-/* line 254, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+/* line 262, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
 .kill img {
   width: 100%; }
 
-/* line 257, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+/* line 265, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
 #tk1 {
   padding: 0;
   margin-bottom: 25px; }
   @media screen and (max-width: 600px) {
-    /* line 257, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+    /* line 265, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
     #tk1 {
       margin-bottom: 10px; } }
 
-/* line 263, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+/* line 271, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
 #tk2 {
   padding: 0;
   margin-top: 25px;
   width: 100%; }
   @media screen and (max-width: 600px) {
-    /* line 263, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+    /* line 271, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
     #tk2 {
       margin-top: 10px; } }
 
-/* line 270, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+/* line 278, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
 #tk3 {
   padding: 0;
   margin-top: 3px;
   width: 100%; }
   @media screen and (max-width: 600px) {
-    /* line 270, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+    /* line 278, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
     #tk3 {
       margin-top: 5px; } }
 
-/* line 278, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+/* line 286, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
 #kibo {
   display: grid;
   grid-template-columns: repeat(3, auto);
   grid-gap: 40px;
   margin-top: 80px; }
-  /* line 283, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+  /* line 291, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
   #kibo #kiki {
     grid-column: 1/4;
     margin: 50px 0; }
   @media screen and (max-width: 600px) {
-    /* line 278, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+    /* line 286, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
     #kibo {
       grid-template-columns: repeat(1, auto); }
-      /* line 289, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+      /* line 297, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
       #kibo #kiki {
         grid-column: 1;
         margin: 50px 0; } }
 
-/* line 294, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+/* line 302, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
 #kiboko {
   display: grid;
   grid-template-columns: repeat(3, auto);
   grid-gap: 50px;
   margin-top: 10px; }
   @media screen and (max-width: 600px) {
-    /* line 294, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+    /* line 302, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
     #kiboko {
       grid-template-columns: repeat(1, auto); } }
 
-/* line 302, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+/* line 310, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
 #short {
   display: grid;
   grid-template-columns: repeat(2, auto);
   grid-gap: 25px; }
   @media screen and (max-width: 600px) {
-    /* line 302, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
+    /* line 310, /Users/rezaalavi/sites/ABS-Website2018/css/indexSass.sass */
     #short {
       grid-template-columns: repeat(1, auto); } }
 
